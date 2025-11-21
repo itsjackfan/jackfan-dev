@@ -29,8 +29,7 @@ export default function RootLayout({
                   Autodidact Labs
                 </div>
                 <p className="max-w-md text-text/60">
-                  Building autonomous research systems. This site is a living
-                  notebook as the lab evolves.
+                  Teaching models to push their own frontiers.
                 </p>
                 <p className="text-xs text-text/40">
                   © {new Date().getFullYear()} Autodidact Labs. All rights
@@ -49,7 +48,7 @@ export default function RootLayout({
                       Projects
                     </Link>
                     <Link href="/blog" className="transition hover:text-teal">
-                      Research &amp; Notes
+                      Blog
                     </Link>
                     <Link href="/contact" className="transition hover:text-teal">
                       Contact
@@ -61,10 +60,10 @@ export default function RootLayout({
                   <div className="font-medium text-text/80">Institute</div>
                   <div className="flex flex-col gap-1">
                     <Link href="#" className="transition hover:text-teal">
-                      About
+                      Mission &amp; Values
                     </Link>
                     <Link href="#" className="transition hover:text-teal">
-                      People
+                      The Team
                     </Link>
                     <Link href="#" className="transition hover:text-teal">
                       Open Problems

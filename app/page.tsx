@@ -1,24 +1,58 @@
+'use client';
+
+import { useHasScrolled } from '@/components/hooks/useHasScrolled';
+import { TypewriterText } from '@/components/TypewriterText';
+import { Github, Linkedin, Mail } from 'lucide-react';
+import { NeuralBackground } from '@/components/background/NeuralBackground';
+
 export default function Home() {
+  const hasScrolled = useHasScrolled(10);
+
   return (
     <div className="min-h-screen">
       {/* Hero: just the name, inviting scroll */}
-      <section className="relative isolate h-screen overflow-hidden before:absolute before:inset-0 before:bg-brand-radial">
-        <div className="relative mx-auto flex h-full max-w-[var(--container)] flex-col px-4 pb-16 pt-32 sm:pb-20 sm:pt-40">
-          <div className="mt-auto mb-auto text-center">
-            <h1 className="text-[5rem] font-semibold tracking-tighter sm:text-[7rem] lg:text-[8.5rem]">
-              <span className="bg-brand-gradient bg-clip-text text-transparent">
-                Autodidact Labs
-              </span>
-            </h1>
-          </div>
+      <section className="relative isolate h-screen overflow-hidden">
+        <NeuralBackground />
 
-          <div className="mt-auto flex items-center justify-center pb-4 text-xs uppercase tracking-[0.3em] text-text/50 sm:text-sm">
-            <div className="flex items-center gap-3">
-              <span className="h-px w-8 bg-text/30" />
-              <span>Scroll to review</span>
-              <span className="h-px w-8 bg-text/30" />
+        <div className="relative mx-auto flex h-full max-w-[var(--container)] flex-col px-4 pb-16 pt-12 sm:pb-20 sm:pt-12">
+          <div className="mt-auto mb-auto text-center">
+            <h1 className="font-mono text-[8rem] font-semibold tracking-tighter sm:text-[8rem] lg:text-[8.5rem]">
+              <TypewriterText
+                text="Autodidact Labs"
+                speedMsPerChar={130}
+                className="bg-text/50 bg-clip-text text-transparent"
+              />
+            </h1>
+            <div className="text-[1.5rem] font-mono uppercase tracking-[0.3em] text-text/50">
+              Teaching models to push their own frontiers
             </div>
           </div>
+        </div>
+
+        {/* Subtle primary links, bottom-right */}
+        <div className="pointer-events-auto absolute bottom-6 right-6 flex items-center gap-3 text-text/50 sm:bottom-8 sm:right-8">
+          <a
+            href="https://github.com/The-Autodidact-Lab"
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-full p-2 text-text/50 transition hover:text-text/90"
+          >
+            <Github className="h-5 w-5" />
+          </a>
+          <a
+            href="https://linkedin.com/in/jack-fan-dev"
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-full p-2 text-text/50 transition hover:text-text/90"
+          >
+            <Linkedin className="h-5 w-5" />
+          </a>
+          <a
+            href="mailto:jack.fan.dev@gmail.com"
+            className="rounded-full p-2 text-text/50 transition hover:text-text/90"
+          >
+            <Mail className="h-5 w-5" />
+          </a>
         </div>
       </section>
 

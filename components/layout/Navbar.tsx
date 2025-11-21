@@ -3,9 +3,14 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
+import { useHasScrolled } from '@/components/hooks/useHasScrolled';
 
 export function Navbar() {
   const pathname = usePathname();
+  const hasScrolled = useHasScrolled(10);
+
+  const isHome = pathname === '/';
+  const shouldShow = !isHome || hasScrolled;
 
   const links = [
     { href: '/projects', label: 'Projects' },
@@ -13,8 +18,14 @@ export function Navbar() {
   ];
 
   return (
-    <div className="sticky top-0 z-[var(--z-nav)] px-4 pt-4">
-      <nav className="mx-auto max-w-[var(--container)] flex h-16 items-center justify-between gap-4 rounded-2xl border border-white/10 bg-white/[0.04] backdrop-blur-glass px-6 shadow-brand-sm">
+    <div
+      className={`fixed inset-x-0 top-4 z-[var(--z-nav)] px-4 transition-all duration-500 ease-in-out ${
+        shouldShow
+          ? 'pointer-events-auto translate-y-0 opacity-100'
+          : 'pointer-events-none -translate-y-4 opacity-0'
+      }`}
+    >
+      <nav className="mx-auto flex h-16 max-w-[var(--container)] items-center justify-between gap-4 rounded-2xl border border-white/10 bg-white/[0.04] px-6 shadow-brand-sm backdrop-blur-glass">
         <Link
           href="/"
           className="flex items-center gap-3 transition hover:opacity-80"
