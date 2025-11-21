@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 type Star = {
   id: number;
@@ -88,7 +88,7 @@ function NeuralStarField() {
               height: '1.5px',
               transform: `translate(-50%, -50%) rotate(${angle}deg)`,
               animationDuration: `${edge.duration}s`,
-              animationDelay: `${edge.delay}s`,
+              animationDelay: `${-edge.delay}s`,
               background:
                 'linear-gradient(90deg, rgba(148,163,255,0) 0%, rgba(191,219,254,0.12) 30%, rgba(221,214,254,0.7) 50%, rgba(191,219,254,0.12) 70%, rgba(148,163,255,0) 100%)',
               boxShadow:
@@ -108,7 +108,7 @@ function NeuralStarField() {
             width: `${star.size}px`,
             height: `${star.size}px`,
             animationDuration: `${star.duration}s`,
-            animationDelay: `${star.delay}s`,
+            animationDelay: `${-star.delay}s`,
           }}
         />
       ))}
@@ -117,8 +117,18 @@ function NeuralStarField() {
 }
 
 export function NeuralBackground() {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   return (
-    <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
+    <div
+      className={`pointer-events-none absolute inset-0 -z-10 overflow-hidden transition-opacity duration-700 ${
+        mounted ? 'opacity-100' : 'opacity-0'
+      }`}
+    >
       {/* Base cosmic wash */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#020617] via-[#02041f] to-[#020617]" />
 

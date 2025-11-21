@@ -9,6 +9,8 @@ interface TypewriterTextProps {
   /** Optional delay before typing starts (ms) */
   startDelayMs?: number;
   className?: string;
+  /** Called once when typing completes */
+  onComplete?: () => void;
 }
 
 export function TypewriterText({
@@ -16,6 +18,7 @@ export function TypewriterText({
   speedMsPerChar = 80,
   startDelayMs = 0,
   className,
+  onComplete,
 }: TypewriterTextProps) {
   const [visibleCount, setVisibleCount] = useState(0);
 
@@ -30,6 +33,7 @@ export function TypewriterText({
         setVisibleCount((current) => {
           if (current >= text.length) {
             if (intervalId) clearInterval(intervalId);
+            if (onComplete) onComplete();
             return current;
           }
           return current + 1;
@@ -48,7 +52,7 @@ export function TypewriterText({
       if (timeoutId) clearTimeout(timeoutId);
       if (intervalId) clearInterval(intervalId);
     };
-  }, [speedMsPerChar, startDelayMs, text]);
+  }, [onComplete, speedMsPerChar, startDelayMs, text]);
 
   const content = text.slice(0, visibleCount);
 

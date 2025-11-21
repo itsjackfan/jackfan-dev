@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { useHasScrolled } from '@/components/hooks/useHasScrolled';
 import { TypewriterText } from '@/components/TypewriterText';
 import { Github, Linkedin, Mail } from 'lucide-react';
@@ -7,10 +8,10 @@ import { NeuralBackground } from '@/components/background/NeuralBackground';
 
 export default function Home() {
   const hasScrolled = useHasScrolled(10);
+  const [heroDetailsVisible, setHeroDetailsVisible] = useState(false);
 
   return (
     <div className="min-h-screen">
-      {/* Hero: just the name, inviting scroll */}
       <section className="relative isolate h-screen overflow-hidden">
         <NeuralBackground />
 
@@ -21,16 +22,29 @@ export default function Home() {
                 text="Autodidact Labs"
                 speedMsPerChar={130}
                 className="bg-text/50 bg-clip-text text-transparent"
+                onComplete={() => setHeroDetailsVisible(true)}
               />
             </h1>
-            <div className="text-[1.5rem] font-mono uppercase tracking-[0.3em] text-text/50">
+            <div
+              className={`text-[1.5rem] font-mono uppercase tracking-[0.3em] text-text/50 transition-all duration-700 ${
+                heroDetailsVisible
+                  ? 'translate-y-0 opacity-100'
+                  : 'translate-y-2 opacity-0'
+              }`}
+            >
               Teaching models to push their own frontiers
             </div>
           </div>
         </div>
 
         {/* Subtle primary links, bottom-right */}
-        <div className="pointer-events-auto absolute bottom-6 right-6 flex items-center gap-3 text-text/50 sm:bottom-8 sm:right-8">
+        <div
+          className={`pointer-events-auto absolute bottom-6 right-6 flex items-center gap-3 text-text/50 transition-all duration-700 sm:bottom-8 sm:right-8 ${
+            heroDetailsVisible
+              ? 'translate-y-0 opacity-100'
+              : 'translate-y-2 opacity-0'
+          }`}
+        >
           <a
             href="https://github.com/The-Autodidact-Lab"
             target="_blank"
