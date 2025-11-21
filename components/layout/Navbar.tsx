@@ -10,7 +10,6 @@ export function Navbar() {
   const hasScrolled = useHasScrolled(10);
 
   const isHome = pathname === '/';
-  const isLightNav = pathname === '/about';
   const shouldShow = !isHome || hasScrolled;
 
   const links = [
@@ -27,13 +26,7 @@ export function Navbar() {
           : 'pointer-events-none -translate-y-4 opacity-0'
       }`}
     >
-      <nav
-        className={`mx-auto flex h-16 max-w-[var(--container)] items-center justify-between gap-4 rounded-2xl border px-6 shadow-brand-sm backdrop-blur-glass ${
-          isLightNav
-            ? 'border-slate-200 bg-white/90 text-slate-900'
-            : 'border-white/10 bg-white/[0.04] text-text'
-        }`}
-      >
+      <nav className="mx-auto flex h-16 max-w-[var(--container)] items-center justify-between gap-4 rounded-2xl border border-white/10 bg-white/[0.04] px-6 text-text shadow-brand-sm backdrop-blur-glass">
         <Link
           href="/"
           className="flex items-center gap-3 transition hover:opacity-80"
@@ -53,13 +46,9 @@ export function Navbar() {
               key={link.href}
               href={link.href}
               className={`rounded-pill px-4 py-2 text-sm transition ${
-                isLightNav
-                  ? pathname === link.href
-                    ? 'bg-slate-900 text-slate-50 shadow-[0_10px_30px_rgba(15,23,42,0.25)]'
-                    : 'text-slate-700 hover:bg-slate-100 hover:text-slate-900'
-                  : pathname === link.href
-                    ? 'bg-surface/60 text-text'
-                    : 'text-text/80 hover:bg-white/5 hover:text-white'
+                pathname === link.href
+                  ? 'bg-surface/60 text-text'
+                  : 'text-text/80 hover:bg-white/5 hover:text-white'
               }`}
             >
               {link.label}
@@ -67,11 +56,7 @@ export function Navbar() {
           ))}
           <Link
             href="/contact"
-            className={`ml-2 rounded-xl px-4 py-2 text-sm font-medium shadow-glow transition hover:opacity-90 ${
-              isLightNav
-                ? 'bg-slate-900 text-slate-50'
-                : 'bg-primary text-white'
-            }`}
+            className="ml-2 rounded-xl bg-primary px-4 py-2 text-sm font-medium text-white shadow-glow transition hover:opacity-90"
           >
             Contact
           </Link>

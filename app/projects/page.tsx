@@ -256,8 +256,8 @@ function ProjectsCanvas() {
         );
       })}
 
-      {/* Intro copy at the top-left */}
-      <div className="pointer-events-none absolute left-6 top-6 max-w-xs text-xs text-text/70 sm:left-12 sm:top-10 sm:max-w-sm sm:text-sm">
+      {/* Intro copy at the top-left, sitting just below the navbar */}
+      <div className="pointer-events-none absolute left-6 top-24 max-w-xs text-xs text-text/70 sm:left-12 sm:top-28 sm:max-w-sm sm:text-sm">
         <div className="mb-2 text-[0.65rem] uppercase tracking-[0.25em] text-text/45">
           Project graph
         </div>
