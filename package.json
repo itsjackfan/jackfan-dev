@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "export-graph": "tsx scripts/export-graph-data.ts",
-    "prebuild": "npm run export-graph"
+    "export-graph": "tsx scripts/export-graph-data.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",

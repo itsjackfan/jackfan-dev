@@ -240,10 +240,9 @@ async function exportGraphData() {
     console.log(`Found ${links.length} links`);
     
     // Build legend from tag color map
-    const legend: Array<{ tag: string; color: string }> = [];
-    for (const [tag, color] of tagColorMap.entries()) {
-      legend.push({ tag, color });
-    }
+    const legend: Array<{ tag: string; color: string }> = Array.from(tagColorMap.entries()).map(
+      ([tag, color]) => ({ tag, color })
+    );
     // Sort alphabetically for consistent display
     legend.sort((a, b) => a.tag.localeCompare(b.tag));
     
