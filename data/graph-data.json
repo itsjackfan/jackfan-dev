@@ -1,13 +1,67 @@
 {
   "nodes": [
     {
-      "id": "Hierarchical value set",
-      "label": "Hierarchical value set",
+      "id": "Being a fit",
+      "label": "Being a fit",
+      "tags": [
+        "insight"
+      ],
+      "color": "#52e0a3",
+      "path": "Being a fit"
+    },
+    {
+      "id": "EXPLAINABILITY",
+      "label": "EXPLAINABILITY",
+      "tags": [
+        "insight"
+      ],
+      "color": "#52e0a3",
+      "path": "EXPLAINABILITY"
+    },
+    {
+      "id": "Good friends vs. dating",
+      "label": "Good friends vs. dating",
       "tags": [
         "thought"
       ],
       "color": "#83badd",
-      "path": "Hierarchical value set"
+      "path": "Good friends vs. dating"
+    },
+    {
+      "id": "Impermanence",
+      "label": "Impermanence",
+      "tags": [
+        "insight"
+      ],
+      "color": "#52e0a3",
+      "path": "Impermanence"
+    },
+    {
+      "id": "Insecurities",
+      "label": "Insecurities",
+      "tags": [
+        "behaviour"
+      ],
+      "color": "#2d65ae",
+      "path": "Insecurities"
+    },
+    {
+      "id": "Sacrifice in relationships",
+      "label": "Sacrifice in relationships",
+      "tags": [
+        "thought"
+      ],
+      "color": "#83badd",
+      "path": "Sacrifice in relationships"
+    },
+    {
+      "id": "attachment",
+      "label": "attachment",
+      "tags": [
+        "thought"
+      ],
+      "color": "#83badd",
+      "path": "attachment"
     },
     {
       "id": "clippings/Continual Learning in Token Space",
@@ -114,27 +168,67 @@
       "path": "clippings/making and keeping friends"
     },
     {
-      "id": "external validation",
-      "label": "external validation",
-      "tags": [],
-      "color": "#888888",
-      "path": "external validation"
+      "id": "compatibility",
+      "label": "compatibility",
+      "tags": [
+        "thought"
+      ],
+      "color": "#83badd",
+      "path": "compatibility"
     },
     {
-      "id": "performativism",
-      "label": "performativism",
-      "tags": [],
-      "color": "#888888",
-      "path": "performativism"
+      "id": "definitions of love",
+      "label": "definitions of love",
+      "tags": [
+        "thought"
+      ],
+      "color": "#83badd",
+      "path": "definitions of love"
     },
     {
-      "id": "reflexivity",
-      "label": "reflexivity",
+      "id": "growing into love",
+      "label": "growing into love",
+      "tags": [
+        "thought"
+      ],
+      "color": "#83badd",
+      "path": "growing into love"
+    },
+    {
+      "id": "lack of effective communication",
+      "label": "lack of effective communication",
       "tags": [
         "behaviour"
       ],
       "color": "#2d65ae",
-      "path": "reflexivity"
+      "path": "lack of effective communication"
+    },
+    {
+      "id": "love as a choice and a feeling",
+      "label": "love as a choice and a feeling",
+      "tags": [
+        "thought"
+      ],
+      "color": "#83badd",
+      "path": "love as a choice and a feeling"
+    },
+    {
+      "id": "minimising the potential of loss",
+      "label": "minimising the potential of loss",
+      "tags": [
+        "behaviour"
+      ],
+      "color": "#2d65ae",
+      "path": "minimising the potential of loss"
+    },
+    {
+      "id": "the circular relationship",
+      "label": "the circular relationship",
+      "tags": [
+        "thought"
+      ],
+      "color": "#83badd",
+      "path": "the circular relationship"
     },
     {
       "id": "the main planter/\"Enough\" time",
@@ -351,6 +445,15 @@
       ],
       "color": "#83badd",
       "path": "the main planter/Freshmanistan"
+    },
+    {
+      "id": "the main planter/Hierarchical value set",
+      "label": "Hierarchical value set",
+      "tags": [
+        "thought"
+      ],
+      "color": "#83badd",
+      "path": "the main planter/Hierarchical value set"
     },
     {
       "id": "the main planter/Impatience",
@@ -772,15 +875,6 @@
       "path": "the main planter/complacency"
     },
     {
-      "id": "the main planter/continuation script",
-      "label": "continuation script",
-      "tags": [
-        "resource"
-      ],
-      "color": "#05004d",
-      "path": "the main planter/continuation script"
-    },
-    {
       "id": "the main planter/energy direction vs. diverting",
       "label": "energy direction vs. diverting",
       "tags": [
@@ -862,6 +956,15 @@
       "path": "the main planter/perfectionist"
     },
     {
+      "id": "the main planter/performativism",
+      "label": "performativism",
+      "tags": [
+        "behaviour"
+      ],
+      "color": "#2d65ae",
+      "path": "the main planter/performativism"
+    },
+    {
       "id": "the main planter/recursive state- and action-value function calculation for finite-horizon MDP",
       "label": "recursive state- and action-value function calculation for finite-horizon MDP",
       "tags": [
@@ -869,6 +972,15 @@
       ],
       "color": "#0b7f28",
       "path": "the main planter/recursive state- and action-value function calculation for finite-horizon MDP"
+    },
+    {
+      "id": "the main planter/reflexivity",
+      "label": "reflexivity",
+      "tags": [
+        "behaviour"
+      ],
+      "color": "#2d65ae",
+      "path": "the main planter/reflexivity"
     },
     {
       "id": "the main planter/relationships as infinite games",
@@ -887,6 +999,15 @@
       ],
       "color": "#2d65ae",
       "path": "the main planter/scruffy hospitality"
+    },
+    {
+      "id": "the main planter/seeking external validation",
+      "label": "seeking external validation",
+      "tags": [
+        "behaviour"
+      ],
+      "color": "#2d65ae",
+      "path": "the main planter/seeking external validation"
     },
     {
       "id": "the main planter/should",
@@ -951,16 +1072,244 @@
       ],
       "color": "#52e0a3",
       "path": "the main planter/transformer"
+    },
+    {
+      "id": "the necessity of reason",
+      "label": "the necessity of reason",
+      "tags": [
+        "thought"
+      ],
+      "color": "#83badd",
+      "path": "the necessity of reason"
+    },
+    {
+      "id": "thought lag",
+      "label": "thought lag",
+      "tags": [
+        "behaviour"
+      ],
+      "color": "#2d65ae",
+      "path": "thought lag"
+    },
+    {
+      "id": "trust in relationships",
+      "label": "trust in relationships",
+      "tags": [
+        "thought"
+      ],
+      "color": "#83badd",
+      "path": "trust in relationships"
+    },
+    {
+      "id": "vulnerabilities as memories",
+      "label": "vulnerabilities as memories",
+      "tags": [
+        "thought"
+      ],
+      "color": "#83badd",
+      "path": "vulnerabilities as memories"
     }
   ],
   "links": [
     {
-      "source": "Hierarchical value set",
-      "target": "the main planter/intentional incompletion"
+      "source": "Being a fit",
+      "target": "the main planter/performativism"
     },
     {
-      "source": "Hierarchical value set",
-      "target": "the main planter/Finitism"
+      "source": "Being a fit",
+      "target": "the main planter/seeking external validation"
+    },
+    {
+      "source": "Being a fit",
+      "target": "the main planter/should"
+    },
+    {
+      "source": "Being a fit",
+      "target": "the main planter/Mimetic desire"
+    },
+    {
+      "source": "Being a fit",
+      "target": "the main planter/Non-directional maximalism"
+    },
+    {
+      "source": "Being a fit",
+      "target": "the main planter/comparing myself to others"
+    },
+    {
+      "source": "Being a fit",
+      "target": "attachment"
+    },
+    {
+      "source": "Being a fit",
+      "target": "thought lag"
+    },
+    {
+      "source": "Being a fit",
+      "target": "the main planter/Raw competitiveness"
+    },
+    {
+      "source": "Being a fit",
+      "target": "EXPLAINABILITY"
+    },
+    {
+      "source": "Being a fit",
+      "target": "lack of effective communication"
+    },
+    {
+      "source": "Being a fit",
+      "target": "Impermanence"
+    },
+    {
+      "source": "Being a fit",
+      "target": "the main planter/Refusal to accept finitism, limits, imperfect standard"
+    },
+    {
+      "source": "Being a fit",
+      "target": "the main planter/My information scaling laws"
+    },
+    {
+      "source": "Being a fit",
+      "target": "the main planter/scruffy hospitality"
+    },
+    {
+      "source": "Being a fit",
+      "target": "the main planter/Attribution"
+    },
+    {
+      "source": "Being a fit",
+      "target": "the main planter/Shyness or lack of sharing"
+    },
+    {
+      "source": "Being a fit",
+      "target": "love as a choice and a feeling"
+    },
+    {
+      "source": "Being a fit",
+      "target": "growing into love"
+    },
+    {
+      "source": "Being a fit",
+      "target": "trust in relationships"
+    },
+    {
+      "source": "Being a fit",
+      "target": "the main planter/perfectionist"
+    },
+    {
+      "source": "Being a fit",
+      "target": "the main planter/Fear of failure or loss"
+    },
+    {
+      "source": "Being a fit",
+      "target": "the main planter/People-pleasing"
+    },
+    {
+      "source": "Being a fit",
+      "target": "the main planter/Scarcity mentality"
+    },
+    {
+      "source": "Being a fit",
+      "target": "the main planter/the social chess game"
+    },
+    {
+      "source": "EXPLAINABILITY",
+      "target": "the main planter/Mimetic desire"
+    },
+    {
+      "source": "EXPLAINABILITY",
+      "target": "Being a fit"
+    },
+    {
+      "source": "EXPLAINABILITY",
+      "target": "lack of effective communication"
+    },
+    {
+      "source": "EXPLAINABILITY",
+      "target": "the main planter/Cognitive scripts"
+    },
+    {
+      "source": "Good friends vs. dating",
+      "target": "the circular relationship"
+    },
+    {
+      "source": "Good friends vs. dating",
+      "target": "vulnerabilities as memories"
+    },
+    {
+      "source": "Good friends vs. dating",
+      "target": "Sacrifice in relationships"
+    },
+    {
+      "source": "Good friends vs. dating",
+      "target": "definitions of love"
+    },
+    {
+      "source": "Impermanence",
+      "target": "lack of effective communication"
+    },
+    {
+      "source": "Impermanence",
+      "target": "the main planter/Shyness or lack of sharing"
+    },
+    {
+      "source": "Impermanence",
+      "target": "the main planter/relationships as infinite games"
+    },
+    {
+      "source": "Impermanence",
+      "target": "the main planter/Scarcity mentality"
+    },
+    {
+      "source": "Impermanence",
+      "target": "the main planter/Fear of failure or loss"
+    },
+    {
+      "source": "Impermanence",
+      "target": "attachment"
+    },
+    {
+      "source": "Insecurities",
+      "target": "the main planter/Scarcity mentality"
+    },
+    {
+      "source": "Insecurities",
+      "target": "the main planter/Fear of failure or loss"
+    },
+    {
+      "source": "Insecurities",
+      "target": "Being a fit"
+    },
+    {
+      "source": "Insecurities",
+      "target": "the main planter/Refusal to accept finitism, limits, imperfect standard"
+    },
+    {
+      "source": "Sacrifice in relationships",
+      "target": "definitions of love"
+    },
+    {
+      "source": "attachment",
+      "target": "Being a fit"
+    },
+    {
+      "source": "attachment",
+      "target": "EXPLAINABILITY"
+    },
+    {
+      "source": "attachment",
+      "target": "Impermanence"
+    },
+    {
+      "source": "attachment",
+      "target": "thought lag"
+    },
+    {
+      "source": "attachment",
+      "target": "the main planter/performativism"
+    },
+    {
+      "source": "attachment",
+      "target": "the main planter/seeking external validation"
     },
     {
       "source": "clippings/Don’t Surround Yourself With Smarter People",
@@ -1036,7 +1385,7 @@
     },
     {
       "source": "clippings/making and keeping friends",
-      "target": "Hierarchical value set"
+      "target": "the main planter/Hierarchical value set"
     },
     {
       "source": "clippings/making and keeping friends",
@@ -1047,20 +1396,80 @@
       "target": "clippings/Intentionally Making Close Friends"
     },
     {
-      "source": "reflexivity",
-      "target": "the main planter/transactionality of relationships"
+      "source": "compatibility",
+      "target": "growing into love"
     },
     {
-      "source": "reflexivity",
-      "target": "the main planter/should"
+      "source": "compatibility",
+      "target": "compatibility"
     },
     {
-      "source": "reflexivity",
-      "target": "the main planter/Cognitive scripts"
+      "source": "compatibility",
+      "target": "Good friends vs. dating"
     },
     {
-      "source": "reflexivity",
-      "target": "performativism"
+      "source": "growing into love",
+      "target": "compatibility"
+    },
+    {
+      "source": "lack of effective communication",
+      "target": "the main planter/Finite and infinite games"
+    },
+    {
+      "source": "lack of effective communication",
+      "target": "the main planter/relationships as infinite games"
+    },
+    {
+      "source": "lack of effective communication",
+      "target": "Being a fit"
+    },
+    {
+      "source": "lack of effective communication",
+      "target": "thought lag"
+    },
+    {
+      "source": "lack of effective communication",
+      "target": "EXPLAINABILITY"
+    },
+    {
+      "source": "lack of effective communication",
+      "target": "lack of effective communication"
+    },
+    {
+      "source": "love as a choice and a feeling",
+      "target": "growing into love"
+    },
+    {
+      "source": "love as a choice and a feeling",
+      "target": "compatibility"
+    },
+    {
+      "source": "minimising the potential of loss",
+      "target": "Being a fit"
+    },
+    {
+      "source": "minimising the potential of loss",
+      "target": "the main planter/Decision paralysis and indecision"
+    },
+    {
+      "source": "minimising the potential of loss",
+      "target": "the main planter/Non-directional maximalism"
+    },
+    {
+      "source": "the circular relationship",
+      "target": "the main planter/Why relationships exist and are fulfilling"
+    },
+    {
+      "source": "the circular relationship",
+      "target": "love as a choice and a feeling"
+    },
+    {
+      "source": "the circular relationship",
+      "target": "trust in relationships"
+    },
+    {
+      "source": "the circular relationship",
+      "target": "the necessity of reason"
     },
     {
       "source": "the main planter/\"Enough\" time",
@@ -1096,7 +1505,7 @@
     },
     {
       "source": "the main planter/2026 year resolutions",
-      "target": "Hierarchical value set"
+      "target": "the main planter/Hierarchical value set"
     },
     {
       "source": "the main planter/2026 year resolutions",
@@ -1164,7 +1573,7 @@
     },
     {
       "source": "the main planter/Attribution",
-      "target": "external validation"
+      "target": "the main planter/seeking external validation"
     },
     {
       "source": "the main planter/Attribution",
@@ -1192,11 +1601,11 @@
     },
     {
       "source": "the main planter/Cognitive scripts",
-      "target": "the main planter/continuation script"
+      "target": "EXPLAINABILITY"
     },
     {
       "source": "the main planter/Cognitive scripts",
-      "target": "performativism"
+      "target": "the main planter/performativism"
     },
     {
       "source": "the main planter/Cognitive scripts",
@@ -1220,7 +1629,7 @@
     },
     {
       "source": "the main planter/Effective boundaries",
-      "target": "Hierarchical value set"
+      "target": "the main planter/Hierarchical value set"
     },
     {
       "source": "the main planter/Expectation that I'm the best",
@@ -1228,7 +1637,7 @@
     },
     {
       "source": "the main planter/Expectation that I'm the best",
-      "target": "the main planter/continuation script"
+      "target": "EXPLAINABILITY"
     },
     {
       "source": "the main planter/Expectation that I'm the best",
@@ -1276,7 +1685,7 @@
     },
     {
       "source": "the main planter/Fear of failure or loss",
-      "target": "performativism"
+      "target": "the main planter/performativism"
     },
     {
       "source": "the main planter/Fear of failure or loss",
@@ -1292,7 +1701,7 @@
     },
     {
       "source": "the main planter/Fear",
-      "target": "performativism"
+      "target": "the main planter/performativism"
     },
     {
       "source": "the main planter/Fear",
@@ -1343,6 +1752,18 @@
       "target": "the main planter/Mimetic desire"
     },
     {
+      "source": "the main planter/Hierarchical value set",
+      "target": "the main planter/intentional incompletion"
+    },
+    {
+      "source": "the main planter/Hierarchical value set",
+      "target": "the main planter/Finitism"
+    },
+    {
+      "source": "the main planter/Hierarchical value set",
+      "target": "Sacrifice in relationships"
+    },
+    {
       "source": "the main planter/Impatience",
       "target": "the main planter/Talented kids usually don't work hard"
     },
@@ -1376,7 +1797,7 @@
     },
     {
       "source": "the main planter/Lack of boundaries",
-      "target": "external validation"
+      "target": "the main planter/seeking external validation"
     },
     {
       "source": "the main planter/Lack of boundaries",
@@ -1388,7 +1809,7 @@
     },
     {
       "source": "the main planter/Let Them Theory (Mel Robbins)",
-      "target": "external validation"
+      "target": "the main planter/seeking external validation"
     },
     {
       "source": "the main planter/Life.",
@@ -1444,7 +1865,7 @@
     },
     {
       "source": "the main planter/Life.",
-      "target": "external validation"
+      "target": "the main planter/seeking external validation"
     },
     {
       "source": "the main planter/MDP",
@@ -1481,6 +1902,18 @@
     {
       "source": "the main planter/Me.",
       "target": "the main planter/2026 year resolutions"
+    },
+    {
+      "source": "the main planter/Me.",
+      "target": "Being a fit"
+    },
+    {
+      "source": "the main planter/Me.",
+      "target": "Impermanence"
+    },
+    {
+      "source": "the main planter/Me.",
+      "target": "EXPLAINABILITY"
     },
     {
       "source": "the main planter/Me.",
@@ -1548,7 +1981,7 @@
     },
     {
       "source": "the main planter/Mimetic rivalry for a person's time",
-      "target": "Hierarchical value set"
+      "target": "the main planter/Hierarchical value set"
     },
     {
       "source": "the main planter/My information scaling laws",
@@ -1567,8 +2000,12 @@
       "target": "the main planter/relationships as infinite games"
     },
     {
+      "source": "the main planter/Others.",
+      "target": "Sacrifice in relationships"
+    },
+    {
       "source": "the main planter/Overthinking",
-      "target": "performativism"
+      "target": "the main planter/performativism"
     },
     {
       "source": "the main planter/Overthinking",
@@ -1656,7 +2093,7 @@
     },
     {
       "source": "the main planter/Scarcity mentality",
-      "target": "performativism"
+      "target": "the main planter/performativism"
     },
     {
       "source": "the main planter/Scarcity mentality",
@@ -1664,7 +2101,7 @@
     },
     {
       "source": "the main planter/Scarcity mentality",
-      "target": "the main planter/continuation script"
+      "target": "EXPLAINABILITY"
     },
     {
       "source": "the main planter/Scarcity mentality",
@@ -1680,7 +2117,7 @@
     },
     {
       "source": "the main planter/Shyness or lack of sharing",
-      "target": "performativism"
+      "target": "the main planter/performativism"
     },
     {
       "source": "the main planter/Shyness or lack of sharing",
@@ -1697,6 +2134,18 @@
     {
       "source": "the main planter/Starting instead of continuing",
       "target": "the main planter/Talented kids usually don't work hard"
+    },
+    {
+      "source": "the main planter/Starting instead of continuing",
+      "target": "the main planter/Mimetic desire"
+    },
+    {
+      "source": "the main planter/Starting instead of continuing",
+      "target": "the main planter/performativism"
+    },
+    {
+      "source": "the main planter/Starting instead of continuing",
+      "target": "Being a fit"
     },
     {
       "source": "the main planter/Task chunking",
@@ -1748,7 +2197,7 @@
     },
     {
       "source": "the main planter/Wanting by Luke Burgis",
-      "target": "Hierarchical value set"
+      "target": "the main planter/Hierarchical value set"
     },
     {
       "source": "the main planter/Wanting by Luke Burgis",
@@ -1781,6 +2230,18 @@
     {
       "source": "the main planter/Why relationships exist and are fulfilling",
       "target": "the main planter/Others."
+    },
+    {
+      "source": "the main planter/Why relationships exist and are fulfilling",
+      "target": "vulnerabilities as memories"
+    },
+    {
+      "source": "the main planter/Why relationships exist and are fulfilling",
+      "target": "growing into love"
+    },
+    {
+      "source": "the main planter/Why relationships exist and are fulfilling",
+      "target": "Good friends vs. dating"
     },
     {
       "source": "the main planter/Work.",
@@ -1836,11 +2297,11 @@
     },
     {
       "source": "the main planter/complacency",
-      "target": "external validation"
+      "target": "Insecurities"
     },
     {
-      "source": "the main planter/continuation script",
-      "target": "the main planter/Cognitive scripts"
+      "source": "the main planter/complacency",
+      "target": "the main planter/seeking external validation"
     },
     {
       "source": "the main planter/energy direction vs. diverting",
@@ -1912,7 +2373,7 @@
     },
     {
       "source": "the main planter/intentional incompletion",
-      "target": "Hierarchical value set"
+      "target": "the main planter/Hierarchical value set"
     },
     {
       "source": "the main planter/intentional incompletion",
@@ -1940,7 +2401,7 @@
     },
     {
       "source": "the main planter/minimalist selectivity and the critical path",
-      "target": "Hierarchical value set"
+      "target": "the main planter/Hierarchical value set"
     },
     {
       "source": "the main planter/minimalist selectivity and the critical path",
@@ -1959,12 +2420,28 @@
       "target": "the main planter/Means > ends"
     },
     {
+      "source": "the main planter/reflexivity",
+      "target": "the main planter/transactionality of relationships"
+    },
+    {
+      "source": "the main planter/reflexivity",
+      "target": "the main planter/should"
+    },
+    {
+      "source": "the main planter/reflexivity",
+      "target": "the main planter/Cognitive scripts"
+    },
+    {
+      "source": "the main planter/reflexivity",
+      "target": "the main planter/performativism"
+    },
+    {
       "source": "the main planter/relationships as infinite games",
       "target": "the main planter/Finite and infinite games"
     },
     {
       "source": "the main planter/relationships as infinite games",
-      "target": "Hierarchical value set"
+      "target": "the main planter/Hierarchical value set"
     },
     {
       "source": "the main planter/scruffy hospitality",
@@ -2004,7 +2481,7 @@
     },
     {
       "source": "the main planter/the social chess game",
-      "target": "performativism"
+      "target": "the main planter/performativism"
     },
     {
       "source": "the main planter/the social chess game",
@@ -2013,6 +2490,10 @@
     {
       "source": "the main planter/the social chess game",
       "target": "the main planter/scruffy hospitality"
+    },
+    {
+      "source": "the main planter/the social chess game",
+      "target": "Being a fit"
     },
     {
       "source": "the main planter/transactionality of relationships",
@@ -2029,6 +2510,42 @@
     {
       "source": "the main planter/transformer",
       "target": "the main planter/RNN"
+    },
+    {
+      "source": "the necessity of reason",
+      "target": "definitions of love"
+    },
+    {
+      "source": "the necessity of reason",
+      "target": "the circular relationship"
+    },
+    {
+      "source": "the necessity of reason",
+      "target": "the main planter/Why relationships exist and are fulfilling"
+    },
+    {
+      "source": "thought lag",
+      "target": "the main planter/Overthinking"
+    },
+    {
+      "source": "thought lag",
+      "target": "Being a fit"
+    },
+    {
+      "source": "trust in relationships",
+      "target": "the main planter/Scarcity mentality"
+    },
+    {
+      "source": "trust in relationships",
+      "target": "the main planter/Fear of failure or loss"
+    },
+    {
+      "source": "trust in relationships",
+      "target": "Insecurities"
+    },
+    {
+      "source": "vulnerabilities as memories",
+      "target": "Being a fit"
     }
   ],
   "legend": [
