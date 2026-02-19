@@ -1,6 +1,24 @@
 ---
-title: "A mental model for those other models"
-date: "TBD 2026"
+title: "A mental model of models"
+date: "19 Feb 2026"
 author: "Jack Fan"
 tags: ["work", "ML"]
 ---
+
+*This past December, I wanted to really deep-dive into machine learning in order to develop more solid intuition regarding various different model architectures, starting from the simplest multi-layer perceptrons all the way up to transformers. Along the way, I came across the idea of [representation learning](https://arxiv.org/pdf/1206.5538), which was really helpful in offering a helpful visualisation of what models do. This post is an attempt to create something that's easy to point at as a distillation of those ideas of manifold manipulation and geometric interpretation of feature learning and reshaping.*
+
+Neural networks are a composition of different layers. Each of these layers are made up of a simple activation based on a linear combination of a set of inputs, which then feed further into layers up until the output. 
+
+# Neural network tasks
+Most tasks can generally be reduced to learning some form of function that approximates the solution of the task. For classification, this entails drawing the decision boundary between different classes. For regression, this entails creating a function that effectively represents the shape of all of the data.
+
+The simplest function to draw, especially for classification decision boundaries, is a line. However, not all data is linearly separable, so to make everything roughly linearly separable, we must employ complicated manipulations in order to make the data roughly linearly representable. 
+
+EXAMPLE: consider data in the form of a sine function (in a diagram); if we attempt to place the data on a line, it's hard to do so. However, if we transform the data and represent it in terms of a new variable $t = \sin x$, we get a very simple linear function $y = t$ as our relationship.
+
+This is the idea of representation learning and geometric manifold manipulation: **reforming and reshaping the axes that the data lies on in order to make the shape of the dataset more amenable to simple operations like linear separation**. Essentially, think of the idea of pulling the sine function "flat" in two dimensions, but across a more complex set of features (and combinations of features) represented by the inputs and input combinations at each layer of a neural network. The neural network simply repeats this operation for each layer, where each layer creates another level in the hierarchy of representations of the original dataset at each step that gets closer to a simple and linearly separable set of data. 
+
+# Implications of manifold manipulation/case studies
+In thinking geometrically about layer operations within neural networks, we come across a number of different implications:
+- geometric interpretations of different tasks -- classification (we already explored), recurrent/sequence predictions = modelling of dynamical trajectories --> similarities to state space models with different weighted relationships ("strands of attachment") to past points
+- a more first-principles approach to ML (instead of pure empirics and heuristics) -- understanding the inductive bias of the original manifold will help produce more on-policy models

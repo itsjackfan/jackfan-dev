@@ -1,0 +1,24 @@
+---
+title: "Defining the action-consequence learning policy"
+date: "19 Feb 2026"
+author: "Jack Fan"
+tags: ["work", "ML", "continual learning"]
+---
+
+*I've always been extremely interested in psychology, and in particular behavioural, social, and biological psychology perspectives. Furthermore, I come from a computational neuroscience research background before starting my AI/ML and CS work in earnest. As a result of this, a lot of ideas from these two fields tend to carry over when I brainstorm about problems that I come across in ML. Combined with the fact that I feel like I'm generally pretty good at learning and adapting to different scenarios or new material (+ enjoy thinking metacognitively about this in particular), it was thus a natural progression to wonder how to apply biologically-inspired ideas of learning to the zeitgeist of continual learning.*
+
+I think it's a generally accepted statement that people learn in terms of actions and consequences. To define actions and consequences, let's consider a simple closed system that only consists of you and an environment with no external actions, updates, or other stimuli. In this environment:
+- An **action** is something that you choose to do as a result of the current information that you have within a **state**; that is, it is something you choose to do conditional on what you can observe in the moment.
+- A **consequence**, then, is the transition from the current state to the ensuing state that occurs as a direct result of both your action. 
+- Humans are generally pretty good at observing consequences, attributing them to particular actions, and gleaning information (learning) about the efficacy of their own action (and any past actions they've conducted).
+
+From these definitions, we can understand that learning, as I've talked about in my [associative learning post](https://jackfan.dev/blog/associative-learning), is really a problem of seeing a consequence, evaluating it, and then correctly **searching** through past actions to figure out how to assign credit and **integrate** the new credit assignment either as updates to past learnings or as completely new information.
+
+# Ties to existing RL and ML paradigms
+- MDP/POMDP
+- learning policies and approximating value functions
+- dynamics modelling and world modelling
+- model planning
+
+# Why action-consequence is important
+Today's models suck at action-consequence. As an example, in [this paper about collaborative LLM assistants](https://arxiv.org/pdf/2502.00640), it's shown that because LLMs are currently optimised at the single response level, they have trouble reasoning over longer-horizon tasks and multiple turns. This in turn implies that across these multiturn reasoning and credit assignment tasks, they struggle to correctly reason about past and external actions and integate the consequences in the right way. In this manner, it makes sense to assume that, given model architectures or training methods that allow for more understanding of action-consequence, better performance will then arise in a number of different ways. Thus is the import of action-consequence.
