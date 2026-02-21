@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import { AsciiRipple } from '@/components/background/AsciiRipple';
+// import { AsciiNightSky } from '@/components/background/AsciiNightSky';
 
 export default function Home() {
   const tableOfContents = [
@@ -58,7 +59,7 @@ export default function Home() {
             <div className="flex-1">
               <div className="space-y-6 text-gray-600">
                 <p className="text-lg leading-relaxed italic">
-                  Life is a collection of <a href="https://www.ribbonfarm.com/2014/11/05/dont-surround-yourself-with-smarter-people/" target="_blank" rel="noreferrer" className="text-gray-900 transition-colors hover:text-gray-700">infinite gamescapes</a>, or a countably infinite set of infinite games and an uncountably infinite set of parrots. 
+                  Life is a collection of <a href="https://jackfan.dev/blog/critical-paths" target="_blank" rel="noreferrer" className="text-gray-900 transition-colors hover:text-gray-700">infinite gamescapes</a>, or a countably infinite set of infinite games and an uncountably infinite set of parrots. 
                 </p>
                 <p className="text-lg leading-relaxed">
                   If you have reading recs or have strong opinions about continual learning, mimetic desire, or vulnerability and give vs. take in relationships, please feel free to reach out: <br></br> <a className="underline text-blue-500 hover:text-blue-700" href="mailto:jack.fan.dev@gmail.com">jack [dot] fan [dot] dev [at] gmail [dot] com</a>.

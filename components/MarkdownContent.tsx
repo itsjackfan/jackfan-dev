@@ -6,6 +6,7 @@ import remarkMath from "remark-math";
 import rehypeSlug from "rehype-slug";
 import rehypeKatex from "rehype-katex";
 import "katex/dist/katex.min.css";
+import { DecisionBoundaryViz } from "@/components/blog/DecisionBoundaryViz";
 
 interface MarkdownContentProps {
   content: string;
@@ -75,6 +76,7 @@ const components = {
     </div>
   ),
   hr: () => <hr className="border my-12" />,
+  DecisionBoundaryViz,
   a: ({ href, children }: { href?: string; children?: ReactNode }) => {
     if (!href) {
       return <span className="underline hover:text-blue-700 transition-colors">{children}</span>;

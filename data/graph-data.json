@@ -1,6 +1,15 @@
 {
   "nodes": [
     {
+      "id": "clippings/CollabLLM",
+      "label": "CollabLLM",
+      "tags": [
+        "resource"
+      ],
+      "color": "#05004d",
+      "path": "clippings/CollabLLM"
+    },
+    {
       "id": "clippings/Continual Learning in Token Space",
       "label": "Continual Learning in Token Space",
       "tags": [
@@ -44,6 +53,15 @@
       "path": "clippings/Intentionally Making Close Friends"
     },
     {
+      "id": "clippings/LAPO",
+      "label": "LAPO",
+      "tags": [
+        "resource"
+      ],
+      "color": "#05004d",
+      "path": "clippings/LAPO"
+    },
+    {
       "id": "clippings/Mastering Depression and Living the Life You Were Meant to Live",
       "label": "Mastering Depression and Living the Life You Were Meant to Live",
       "tags": [
@@ -76,6 +94,15 @@
       "path": "clippings/Out There- On Not Finishing"
     },
     {
+      "id": "clippings/TTT-Discover",
+      "label": "TTT-Discover",
+      "tags": [
+        "resource"
+      ],
+      "color": "#05004d",
+      "path": "clippings/TTT-Discover"
+    },
+    {
       "id": "clippings/The Continual Learning Problem",
       "label": "The Continual Learning Problem",
       "tags": [
@@ -83,6 +110,13 @@
       ],
       "color": "#05004d",
       "path": "clippings/The Continual Learning Problem"
+    },
+    {
+      "id": "clippings/The Moral Bucket List",
+      "label": "The Moral Bucket List",
+      "tags": [],
+      "color": "#888888",
+      "path": "clippings/The Moral Bucket List"
     },
     {
       "id": "clippings/The Staircase of the Self",
@@ -110,6 +144,13 @@
       ],
       "color": "#05004d",
       "path": "clippings/The power of upward spirals"
+    },
+    {
+      "id": "clippings/The tyranny of ideas",
+      "label": "The tyranny of ideas",
+      "tags": [],
+      "color": "#888888",
+      "path": "clippings/The tyranny of ideas"
     },
     {
       "id": "clippings/Willingness to look stupid",
@@ -1634,6 +1675,18 @@
     {
       "source": "the main planter/Cognitive scripts",
       "target": "the main planter/perfectionist"
+    },
+    {
+      "source": "the main planter/Decentralised MAS paper",
+      "target": "clippings/LAPO"
+    },
+    {
+      "source": "the main planter/Decentralised MAS paper",
+      "target": "clippings/TTT-Discover"
+    },
+    {
+      "source": "the main planter/Decentralised MAS paper",
+      "target": "clippings/CollabLLM"
     },
     {
       "source": "the main planter/Decision paralysis and indecision",
