@@ -679,6 +679,15 @@
       "path": "the main planter/My information scaling laws"
     },
     {
+      "id": "the main planter/NetLogo ants model",
+      "label": "NetLogo ants model",
+      "tags": [
+        "resource"
+      ],
+      "color": "#05004d",
+      "path": "the main planter/NetLogo ants model"
+    },
+    {
       "id": "the main planter/Non-directional maximalism",
       "label": "Non-directional maximalism",
       "tags": [
@@ -2250,6 +2259,14 @@
     {
       "source": "the main planter/My information scaling laws",
       "target": "the main planter/Fear"
+    },
+    {
+      "source": "the main planter/NetLogo ants model",
+      "target": "the main planter/Manifold composition and untangling aka representation learning"
+    },
+    {
+      "source": "the main planter/NetLogo ants model",
+      "target": "the main planter/MAS and continual learning extension"
     },
     {
       "source": "the main planter/Non-directional maximalism",
