@@ -1,12 +1,39 @@
 {
   "nodes": [
     {
+      "id": "Open loops",
+      "label": "Open loops",
+      "tags": [
+        "thought"
+      ],
+      "color": "#888888",
+      "path": "Open loops"
+    },
+    {
+      "id": "Personal optimisation policy",
+      "label": "Personal optimisation policy",
+      "tags": [
+        "thought"
+      ],
+      "color": "#888888",
+      "path": "Personal optimisation policy"
+    },
+    {
+      "id": "The currency of fulfillment",
+      "label": "The currency of fulfillment",
+      "tags": [
+        "thought"
+      ],
+      "color": "#888888",
+      "path": "The currency of fulfillment"
+    },
+    {
       "id": "clippings/CollabLLM",
       "label": "CollabLLM",
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "clippings/CollabLLM"
     },
     {
@@ -15,7 +42,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "clippings/Continual Learning in Token Space"
     },
     {
@@ -24,7 +51,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "clippings/Don’t Surround Yourself With Smarter People"
     },
     {
@@ -33,7 +60,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "clippings/Fear-Setting- The Most Valuable Exercise I Do Every Month"
     },
     {
@@ -49,7 +76,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "clippings/Intentionally Making Close Friends"
     },
     {
@@ -58,13 +85,15 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "clippings/LAPO"
     },
     {
       "id": "clippings/Long Distance Thinking",
       "label": "Long Distance Thinking",
-      "tags": [],
+      "tags": [
+        "resource"
+      ],
       "color": "#888888",
       "path": "clippings/Long Distance Thinking"
     },
@@ -74,7 +103,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "clippings/Mastering Depression and Living the Life You Were Meant to Live"
     },
     {
@@ -97,7 +126,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "clippings/Out There- On Not Finishing"
     },
     {
@@ -106,7 +135,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "clippings/TTT-Discover"
     },
     {
@@ -115,8 +144,17 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "clippings/The Continual Learning Problem"
+    },
+    {
+      "id": "clippings/The Memex Method",
+      "label": "The Memex Method",
+      "tags": [
+        "resource"
+      ],
+      "color": "#888888",
+      "path": "clippings/The Memex Method"
     },
     {
       "id": "clippings/The Moral Bucket List",
@@ -131,7 +169,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "clippings/The Staircase of the Self"
     },
     {
@@ -140,7 +178,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "clippings/The most powerful paradoxes of life"
     },
     {
@@ -149,13 +187,15 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "clippings/The power of upward spirals"
     },
     {
       "id": "clippings/The tyranny of ideas",
       "label": "The tyranny of ideas",
-      "tags": [],
+      "tags": [
+        "resource"
+      ],
       "color": "#888888",
       "path": "clippings/The tyranny of ideas"
     },
@@ -165,7 +205,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "clippings/Willingness to look stupid"
     },
     {
@@ -174,7 +214,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "clippings/making and keeping friends"
     },
     {
@@ -183,7 +223,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/\"Enough\" time"
     },
     {
@@ -193,7 +233,7 @@
         "ends",
         "ONGOING"
       ],
-      "color": "#ffd91a",
+      "color": "#888888",
       "path": "the main planter/2026 year resolutions"
     },
     {
@@ -202,7 +242,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/3-hour deep work boundary"
     },
     {
@@ -211,7 +251,7 @@
       "tags": [
         "ONGOING"
       ],
-      "color": "#ff0000",
+      "color": "#888888",
       "path": "the main planter/AADT S26"
     },
     {
@@ -221,7 +261,7 @@
         "resource",
         "means"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "the main planter/AM158 textbook"
     },
     {
@@ -230,7 +270,7 @@
       "tags": [
         "ONGOING"
       ],
-      "color": "#ff0000",
+      "color": "#888888",
       "path": "the main planter/AllStars biweekly + performance"
     },
     {
@@ -239,7 +279,7 @@
       "tags": [
         "me"
       ],
-      "color": "#8c00ff",
+      "color": "#888888",
       "path": "the main planter/Anchors."
     },
     {
@@ -248,8 +288,17 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Attribution"
+    },
+    {
+      "id": "the main planter/Augmented Neural ODEs",
+      "label": "Augmented Neural ODEs",
+      "tags": [
+        "resource"
+      ],
+      "color": "#888888",
+      "path": "the main planter/Augmented Neural ODEs"
     },
     {
       "id": "the main planter/Backprop and autodiff",
@@ -258,7 +307,7 @@
         "means",
         "action"
       ],
-      "color": "#ffda8a",
+      "color": "#888888",
       "path": "the main planter/Backprop and autodiff"
     },
     {
@@ -267,7 +316,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Being a fit"
     },
     {
@@ -276,7 +325,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Blogpost ideas"
     },
     {
@@ -286,7 +335,7 @@
         "insight",
         "means"
       ],
-      "color": "#52e0a3",
+      "color": "#888888",
       "path": "the main planter/CNN"
     },
     {
@@ -295,7 +344,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "the main planter/Cognitive scripts"
     },
     {
@@ -305,7 +354,7 @@
         "insight",
         "means"
       ],
-      "color": "#52e0a3",
+      "color": "#888888",
       "path": "the main planter/Consistency"
     },
     {
@@ -314,7 +363,7 @@
       "tags": [
         "action"
       ],
-      "color": "#0b7f28",
+      "color": "#888888",
       "path": "the main planter/DP state- and action-value function and policy optimiser for finite-horizon MDP"
     },
     {
@@ -322,9 +371,10 @@
       "label": "Decentralised MAS paper",
       "tags": [
         "action",
-        "ends"
+        "ends",
+        "ONGOING"
       ],
-      "color": "#0b7f28",
+      "color": "#888888",
       "path": "the main planter/Decentralised MAS paper"
     },
     {
@@ -333,7 +383,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Decision paralysis and indecision"
     },
     {
@@ -342,7 +392,7 @@
       "tags": [
         "insight"
       ],
-      "color": "#52e0a3",
+      "color": "#888888",
       "path": "the main planter/EXPLAINABILITY"
     },
     {
@@ -351,7 +401,7 @@
       "tags": [
         "ONGOING"
       ],
-      "color": "#ff0000",
+      "color": "#888888",
       "path": "the main planter/Eastbound '26"
     },
     {
@@ -360,7 +410,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Effective boundaries"
     },
     {
@@ -369,7 +419,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Enablers vs parrots"
     },
     {
@@ -378,7 +428,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Expectation that I'm the best"
     },
     {
@@ -388,7 +438,7 @@
         "action",
         "means"
       ],
-      "color": "#0b7f28",
+      "color": "#888888",
       "path": "the main planter/FashionMNIST-prime tuned LeNet"
     },
     {
@@ -397,7 +447,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Fear of failure or loss"
     },
     {
@@ -406,7 +456,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Fear"
     },
     {
@@ -415,7 +465,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Finite and infinite games"
     },
     {
@@ -424,7 +474,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Finitism"
     },
     {
@@ -433,7 +483,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Freshmanistan"
     },
     {
@@ -442,7 +492,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Good conversations"
     },
     {
@@ -451,7 +501,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Good friends vs. dating"
     },
     {
@@ -460,7 +510,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Hierarchical value set"
     },
     {
@@ -469,7 +519,7 @@
       "tags": [
         "insight"
       ],
-      "color": "#52e0a3",
+      "color": "#888888",
       "path": "the main planter/Identity erasure"
     },
     {
@@ -478,7 +528,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Impatience"
     },
     {
@@ -487,7 +537,7 @@
       "tags": [
         "insight"
       ],
-      "color": "#52e0a3",
+      "color": "#888888",
       "path": "the main planter/Impermanence"
     },
     {
@@ -496,7 +546,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Insecurities"
     },
     {
@@ -505,7 +555,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Intrinsic motivation and caring"
     },
     {
@@ -514,7 +564,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Kairos productivity"
     },
     {
@@ -525,7 +575,7 @@
         "means",
         "TODO"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "the main planter/Karpathy zero to hero"
     },
     {
@@ -534,7 +584,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Lack of boundaries"
     },
     {
@@ -543,7 +593,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "the main planter/LeNet-5"
     },
     {
@@ -552,7 +602,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "the main planter/Let Them Theory (Mel Robbins)"
     },
     {
@@ -561,7 +611,7 @@
       "tags": [
         "ends"
       ],
-      "color": "#ffd91a",
+      "color": "#888888",
       "path": "the main planter/Life."
     },
     {
@@ -571,7 +621,7 @@
         "action",
         "ONGOING"
       ],
-      "color": "#0b7f28",
+      "color": "#888888",
       "path": "the main planter/MAS and continual learning extension"
     },
     {
@@ -582,7 +632,7 @@
         "means",
         "TODO"
       ],
-      "color": "#52e0a3",
+      "color": "#888888",
       "path": "the main planter/MDP"
     },
     {
@@ -592,7 +642,7 @@
         "means",
         "insight"
       ],
-      "color": "#ffda8a",
+      "color": "#888888",
       "path": "the main planter/MLP"
     },
     {
@@ -602,7 +652,7 @@
         "action",
         "means"
       ],
-      "color": "#0b7f28",
+      "color": "#888888",
       "path": "the main planter/MNIST-prime MLP"
     },
     {
@@ -612,7 +662,7 @@
         "means",
         "insight"
       ],
-      "color": "#ffda8a",
+      "color": "#888888",
       "path": "the main planter/Manifold composition and untangling aka representation learning"
     },
     {
@@ -621,7 +671,7 @@
       "tags": [
         "me"
       ],
-      "color": "#8c00ff",
+      "color": "#888888",
       "path": "the main planter/Me."
     },
     {
@@ -630,7 +680,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Means vs ends"
     },
     {
@@ -639,7 +689,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "the main planter/Meditations for Mortals"
     },
     {
@@ -648,7 +698,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Mental modelling when learning"
     },
     {
@@ -657,7 +707,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Mimetic desire"
     },
     {
@@ -666,7 +716,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Mimetic rivalry for a person's time"
     },
     {
@@ -675,7 +725,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/My information scaling laws"
     },
     {
@@ -684,8 +734,17 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "the main planter/NetLogo ants model"
+    },
+    {
+      "id": "the main planter/Neural ODEs",
+      "label": "Neural ODEs",
+      "tags": [
+        "resource"
+      ],
+      "color": "#888888",
+      "path": "the main planter/Neural ODEs"
     },
     {
       "id": "the main planter/Non-directional maximalism",
@@ -693,7 +752,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Non-directional maximalism"
     },
     {
@@ -703,7 +762,7 @@
         "resource",
         "ends"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "the main planter/OpenAI Spinning Up"
     },
     {
@@ -713,7 +772,7 @@
         "insight",
         "means"
       ],
-      "color": "#52e0a3",
+      "color": "#888888",
       "path": "the main planter/Optimisation techniques for training and regularisation"
     },
     {
@@ -722,7 +781,7 @@
       "tags": [
         "ends"
       ],
-      "color": "#ffd91a",
+      "color": "#888888",
       "path": "the main planter/Others."
     },
     {
@@ -731,7 +790,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Overthinking"
     },
     {
@@ -740,7 +799,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/People-pleasing"
     },
     {
@@ -749,17 +808,24 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Productivity momentum"
     },
     {
       "id": "the main planter/Q1 2026",
       "label": "Q1 2026",
+      "tags": [],
+      "color": "#888888",
+      "path": "the main planter/Q1 2026"
+    },
+    {
+      "id": "the main planter/Q2 2026",
+      "label": "Q2 2026",
       "tags": [
         "ends"
       ],
-      "color": "#ffd91a",
-      "path": "the main planter/Q1 2026"
+      "color": "#888888",
+      "path": "the main planter/Q2 2026"
     },
     {
       "id": "the main planter/RNN",
@@ -768,7 +834,7 @@
         "insight",
         "means"
       ],
-      "color": "#52e0a3",
+      "color": "#888888",
       "path": "the main planter/RNN"
     },
     {
@@ -777,7 +843,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Raw competitiveness"
     },
     {
@@ -786,7 +852,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Refusal to accept finitism, limits, imperfect standard"
     },
     {
@@ -795,7 +861,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Sacrifice in relationships"
     },
     {
@@ -804,7 +870,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Scarcity mentality"
     },
     {
@@ -813,7 +879,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Shyness or lack of sharing"
     },
     {
@@ -824,7 +890,7 @@
         "TODO",
         "action"
       ],
-      "color": "#ffd91a",
+      "color": "#888888",
       "path": "the main planter/Soft CL project aka better task management lol"
     },
     {
@@ -833,7 +899,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Starting instead of continuing"
     },
     {
@@ -842,7 +908,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Talented kids usually don't work hard"
     },
     {
@@ -852,7 +918,7 @@
         "behaviour",
         "means"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Task chunking"
     },
     {
@@ -861,16 +927,14 @@
       "tags": [
         "ONGOING"
       ],
-      "color": "#ff0000",
+      "color": "#888888",
       "path": "the main planter/The Collective events"
     },
     {
       "id": "the main planter/The winter break special",
       "label": "The winter break special",
-      "tags": [
-        "ends"
-      ],
-      "color": "#ffd91a",
+      "tags": [],
+      "color": "#888888",
       "path": "the main planter/The winter break special"
     },
     {
@@ -880,7 +944,7 @@
         "ends",
         "action"
       ],
-      "color": "#ffd91a",
+      "color": "#888888",
       "path": "the main planter/ThirdLayer KnowledgeBench and potential paper"
     },
     {
@@ -889,7 +953,7 @@
       "tags": [
         "ONGOING"
       ],
-      "color": "#ff0000",
+      "color": "#888888",
       "path": "the main planter/ThirdLayer blog"
     },
     {
@@ -898,7 +962,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/Thought modalities"
     },
     {
@@ -907,7 +971,7 @@
       "tags": [
         "resource"
       ],
-      "color": "#05004d",
+      "color": "#888888",
       "path": "the main planter/Wanting by Luke Burgis"
     },
     {
@@ -916,7 +980,7 @@
       "tags": [
         "action"
       ],
-      "color": "#0b7f28",
+      "color": "#888888",
       "path": "the main planter/Weekly or biweekly reading group"
     },
     {
@@ -925,7 +989,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/Why relationships exist and are fulfilling"
     },
     {
@@ -934,7 +998,7 @@
       "tags": [
         "means"
       ],
-      "color": "#ffda8a",
+      "color": "#888888",
       "path": "the main planter/Work."
     },
     {
@@ -943,7 +1007,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/absolutism"
     },
     {
@@ -952,7 +1016,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/attachment"
     },
     {
@@ -961,7 +1025,7 @@
       "tags": [
         "action"
       ],
-      "color": "#0b7f28",
+      "color": "#888888",
       "path": "the main planter/choreography?!?"
     },
     {
@@ -970,7 +1034,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/comparing myself to others"
     },
     {
@@ -979,7 +1043,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/compatibility"
     },
     {
@@ -988,7 +1052,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/complacency"
     },
     {
@@ -997,7 +1061,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/definitions of love"
     },
     {
@@ -1006,7 +1070,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/definitions of regret"
     },
     {
@@ -1015,7 +1079,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/distillation"
     },
     {
@@ -1024,26 +1088,25 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/energy direction vs. diverting"
     },
     {
       "id": "the main planter/figure out my careerwise responsibilities for the next roughly 6 months",
       "label": "figure out my careerwise responsibilities for the next roughly 6 months",
       "tags": [
-        "ONGOING"
+        "action"
       ],
-      "color": "#ff0000",
+      "color": "#888888",
       "path": "the main planter/figure out my careerwise responsibilities for the next roughly 6 months"
     },
     {
       "id": "the main planter/first-principles understandings of core concepts",
       "label": "first-principles understandings of core concepts",
       "tags": [
-        "means",
-        "ONGOING"
+        "means"
       ],
-      "color": "#ffda8a",
+      "color": "#888888",
       "path": "the main planter/first-principles understandings of core concepts"
     },
     {
@@ -1052,7 +1115,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/growing into love"
     },
     {
@@ -1061,7 +1124,7 @@
       "tags": [
         "means"
       ],
-      "color": "#ffda8a",
+      "color": "#888888",
       "path": "the main planter/implementation skills"
     },
     {
@@ -1070,7 +1133,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/intentional incompletion"
     },
     {
@@ -1079,7 +1142,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/lack of effective communication"
     },
     {
@@ -1088,7 +1151,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/life gamescape"
     },
     {
@@ -1097,17 +1160,16 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/love as a choice and a feeling"
     },
     {
       "id": "the main planter/memory as an associative graph",
       "label": "memory as an associative graph",
       "tags": [
-        "action",
-        "TODO"
+        "action"
       ],
-      "color": "#0b7f28",
+      "color": "#888888",
       "path": "the main planter/memory as an associative graph"
     },
     {
@@ -1116,7 +1178,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/minimalist selectivity and the critical path"
     },
     {
@@ -1125,7 +1187,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/minimising the potential of loss"
     },
     {
@@ -1134,7 +1196,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/need to be in control"
     },
     {
@@ -1143,7 +1205,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/perfectionist"
     },
     {
@@ -1152,7 +1214,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/performativism"
     },
     {
@@ -1161,7 +1223,7 @@
       "tags": [
         "action"
       ],
-      "color": "#0b7f28",
+      "color": "#888888",
       "path": "the main planter/recursive state- and action-value function calculation for finite-horizon MDP"
     },
     {
@@ -1170,7 +1232,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/reflexivity"
     },
     {
@@ -1186,7 +1248,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/relationships as infinite games"
     },
     {
@@ -1195,7 +1257,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/scruffy hospitality"
     },
     {
@@ -1204,7 +1266,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/seeking external validation"
     },
     {
@@ -1213,7 +1275,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/should"
     },
     {
@@ -1222,7 +1284,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/slack"
     },
     {
@@ -1231,7 +1293,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/the circular relationship"
     },
     {
@@ -1240,7 +1302,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/the for-what rule"
     },
     {
@@ -1249,7 +1311,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/the necessity of reason"
     },
     {
@@ -1258,7 +1320,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/the power of completion"
     },
     {
@@ -1267,7 +1329,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/the social chess game"
     },
     {
@@ -1276,7 +1338,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/thought lag"
     },
     {
@@ -1285,7 +1347,7 @@
       "tags": [
         "behaviour"
       ],
-      "color": "#2d65ae",
+      "color": "#888888",
       "path": "the main planter/transactionality of relationships"
     },
     {
@@ -1295,7 +1357,7 @@
         "insight",
         "means"
       ],
-      "color": "#52e0a3",
+      "color": "#888888",
       "path": "the main planter/transformer"
     },
     {
@@ -1304,7 +1366,7 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/trust in relationships"
     },
     {
@@ -1314,7 +1376,7 @@
         "thought",
         "ONGOING"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/using manifolds to inform continual learning"
     },
     {
@@ -1323,11 +1385,15 @@
       "tags": [
         "thought"
       ],
-      "color": "#83badd",
+      "color": "#888888",
       "path": "the main planter/vulnerabilities as memories"
     }
   ],
   "links": [
+    {
+      "source": "Open loops",
+      "target": "the main planter/Consistency"
+    },
     {
       "source": "clippings/Don’t Surround Yourself With Smarter People",
       "target": "the main planter/life gamescape"
@@ -1365,6 +1431,10 @@
       "target": "the main planter/Others."
     },
     {
+      "source": "clippings/Long Distance Thinking",
+      "target": "the main planter/Finite and infinite games"
+    },
+    {
       "source": "clippings/Out There- On Not Finishing",
       "target": "the main planter/Means vs ends"
     },
@@ -1387,6 +1457,10 @@
     {
       "source": "clippings/The most powerful paradoxes of life",
       "target": "the main planter/My information scaling laws"
+    },
+    {
+      "source": "clippings/The tyranny of ideas",
+      "target": "the main planter/Mimetic desire"
     },
     {
       "source": "clippings/making and keeping friends",
@@ -1490,15 +1564,15 @@
     },
     {
       "source": "the main planter/2026 year resolutions",
+      "target": "the main planter/The Collective events"
+    },
+    {
+      "source": "the main planter/2026 year resolutions",
       "target": "the main planter/Life."
     },
     {
       "source": "the main planter/2026 year resolutions",
       "target": "the main planter/Wanting by Luke Burgis"
-    },
-    {
-      "source": "the main planter/2026 year resolutions",
-      "target": "the main planter/The Collective events"
     },
     {
       "source": "the main planter/2026 year resolutions",
@@ -2166,11 +2240,19 @@
     },
     {
       "source": "the main planter/Me.",
-      "target": "the main planter/Identity erasure"
+      "target": "Personal optimisation policy"
     },
     {
       "source": "the main planter/Me.",
       "target": "the main planter/Anchors."
+    },
+    {
+      "source": "the main planter/Me.",
+      "target": "Open loops"
+    },
+    {
+      "source": "the main planter/Me.",
+      "target": "the main planter/Identity erasure"
     },
     {
       "source": "the main planter/Me.",
@@ -2269,6 +2351,10 @@
       "target": "the main planter/MAS and continual learning extension"
     },
     {
+      "source": "the main planter/Neural ODEs",
+      "target": "the main planter/Augmented Neural ODEs"
+    },
+    {
       "source": "the main planter/Non-directional maximalism",
       "target": "the main planter/Starting instead of continuing"
     },
@@ -2355,6 +2441,42 @@
     {
       "source": "the main planter/Q1 2026",
       "target": "the main planter/Soft CL project aka better task management lol"
+    },
+    {
+      "source": "the main planter/Q2 2026",
+      "target": "the main planter/Q1 2026"
+    },
+    {
+      "source": "the main planter/Q2 2026",
+      "target": "the main planter/Decentralised MAS paper"
+    },
+    {
+      "source": "the main planter/Q2 2026",
+      "target": "the main planter/ThirdLayer blog"
+    },
+    {
+      "source": "the main planter/Q2 2026",
+      "target": "the main planter/AADT S26"
+    },
+    {
+      "source": "the main planter/Q2 2026",
+      "target": "the main planter/Eastbound '26"
+    },
+    {
+      "source": "the main planter/Q2 2026",
+      "target": "the main planter/AllStars biweekly + performance"
+    },
+    {
+      "source": "the main planter/Q2 2026",
+      "target": "the main planter/The Collective events"
+    },
+    {
+      "source": "the main planter/Q2 2026",
+      "target": "the main planter/MAS and continual learning extension"
+    },
+    {
+      "source": "the main planter/Q2 2026",
+      "target": "the main planter/Neural ODEs"
     },
     {
       "source": "the main planter/RNN",
@@ -2579,6 +2701,10 @@
     {
       "source": "the main planter/Work.",
       "target": "the main planter/Q1 2026"
+    },
+    {
+      "source": "the main planter/Work.",
+      "target": "the main planter/Q2 2026"
     },
     {
       "source": "the main planter/Work.",
@@ -3121,46 +3247,5 @@
       "target": "the main planter/Being a fit"
     }
   ],
-  "legend": [
-    {
-      "tag": "action",
-      "color": "#0b7f28"
-    },
-    {
-      "tag": "behaviour",
-      "color": "#2d65ae"
-    },
-    {
-      "tag": "ends",
-      "color": "#ffd91a"
-    },
-    {
-      "tag": "insight",
-      "color": "#52e0a3"
-    },
-    {
-      "tag": "me",
-      "color": "#8c00ff"
-    },
-    {
-      "tag": "means",
-      "color": "#ffda8a"
-    },
-    {
-      "tag": "ongoing",
-      "color": "#ff0000"
-    },
-    {
-      "tag": "resource",
-      "color": "#05004d"
-    },
-    {
-      "tag": "thought",
-      "color": "#83badd"
-    },
-    {
-      "tag": "todo",
-      "color": "#ff7575"
-    }
-  ]
+  "legend": []
 }

@@ -1,14 +1,14 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getBlogPost, getBlogPosts } from "@/lib/blog";
+import { getBlogPost, getBlogPosts, getInternalBlogPosts } from "@/lib/blog";
 import { MarkdownContent } from "@/components/MarkdownContent";
 import { TableOfContents } from "@/components/TableOfContents";
 import { BlogPostNavigation } from "@/components/BlogPostNavigation";
 import { extractToc } from "@/lib/toc";
 
 export async function generateStaticParams() {
-  const posts = getBlogPosts();
+  const posts = getInternalBlogPosts();
   return posts.map((post) => ({
     slug: post.slug,
   }));
@@ -46,8 +46,8 @@ export default async function BlogPostPage({
 
   const toc = extractToc(post.content);
 
-  // Get all posts for prev/next navigation
-  const allPosts = getBlogPosts();
+  // Get all posts for prev/next navigation (internal only — external posts link out directly)
+  const allPosts = getInternalBlogPosts();
   const currentIndex = allPosts.findIndex((p) => p.slug === slug);
   const prevPost = currentIndex > 0 ? allPosts[currentIndex - 1] : null;
   const nextPost = currentIndex < allPosts.length - 1 ? allPosts[currentIndex + 1] : null;
@@ -65,7 +65,7 @@ export default async function BlogPostPage({
 
         {/* Title/Header - centered separately */}
         <div className="flex justify-center mb-8">
-          <div className="w-full max-w-xl text-center">
+          <div className="w-full max-w-2xl text-center">
             {post.isDraft && (
               <div className="mb-4 px-3 py-1.5 bg-yellow-100 border border-yellow-300 rounded text-sm text-yellow-800 inline-block">
                 Draft - Not Published
@@ -107,7 +107,7 @@ export default async function BlogPostPage({
 
         {/* Article content - centered with TOC relative to it */}
         <div className="flex justify-center">
-          <div className="w-full max-w-xl relative">
+          <div className="w-full max-w-2xl relative">
             {/* Table of Contents Sidebar - absolutely positioned to the left of article content */}
             {toc.length > 0 && (
               <div className="hidden lg:block absolute top-0 -left-[208px] w-48">
@@ -124,7 +124,7 @@ export default async function BlogPostPage({
 
         {/* Navigation section at the bottom */}
         <div className="flex justify-center">
-          <div className="w-full max-w-xl">
+          <div className="w-full max-w-2xl">
             <BlogPostNavigation
               prevPost={prevPost ? { slug: prevPost.slug, title: prevPost.title } : null}
               nextPost={nextPost ? { slug: nextPost.slug, title: nextPost.title } : null}

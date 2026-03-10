@@ -1,0 +1,34 @@
+---
+title: "A machine learning approach to ODEs"
+date: "23 Feb 2026"
+author: "Jack Fan"
+tags: ["work", "ML"]
+---
+
+*This post is representative of an amalgamation of new ideas that I've come across recently, combining the ideas of continual learning, action-consequence and dynamics modelling, and state space-/differential equations-based models in the vein of MAMBA. The hypothesis itself purports to be new, though there is existing work in the vein of neural ODEs that the thread of thought is built on. As in previous posts, the writing does not intend to be a completely thorough, rigorous discussion of theory despite presenting clear step-by-step formulations.*
+
+## Defining ODEs
+Traditional ODEs are pretty much defined as 
+
+### The core problem: choosing variables
+
+
+## Current neural ODEs
+**the world can be modelled by the transition of the hidden state (i.e. what information the model has extracted from each data point in the time series), the hidden state can then be modelled by an ODE, and the goal is to solve this ODE in order to be able to impute (and potentially predict) continuously beyond the current time step**
+
+world -> hidden state evolution dynamics (this is how the world works, but reduced) -> set number of variables/features within the hidden state -> ODE
+solving this ODE = easy to impute, predict, and generally understand the dynamics of the system
+
+## Changing the perspective
+world -> set of variables -> ODE per variable -> superneuron per evolution function of ODE to model/approximate the function given the previous hidden state (i.e. the f(x) part of dx/dt = f(x)), where a superneuron is the atomic unit of neural net that's able to either self-differentiate or self-understand -> easy imputation of each of these variables by leveraging time-series, recurrence, state space models, etc., allowing us to predict without needing to solve the ODEs
+
+essentially, my hypothesis follows the following logic:
+1. ODEs can model various different systems extremely well
+2. the hardest problem within ODEs is effectively representing the system with a set number of variables, i.e. choosing what those variables are and what functions effectively represent them
+3. we can outsource the "representation learning" of these variables to a composition of smaller neural networks; though we will have to choose the best "atomic unit network" (that will likely be some combination of time-series/recurrent/state-space-based architectures), it should hypothetically make the management of data much easier because the neural nets themselves can act as "filters" to determine which are the most important features for this particular "variable" that's being represented (the variables themselves can now be self-differentiating/don't have to be artificially chosen, eliminating the inductive understanding we need)
+4. through this compositional system, we'll be able to create a dynamic representation of the variables across each of these different atomic networks, and in a sense be able to "self-assemble" variables through the simple idea of filtering different input features in a way that dovetails nicely with existing gradient descent practices, etc. 
+5. this allows us to nicely impute or generate modelling values for any set of world inputs, giving us strong dynamics modelling capability; if we then use this as the "planning" or "dynamics" cortex within a larger model that's able to plan along the lines of PUCT or AlphaGo/AlphaZero-esque model-based RL, we should have an extremely powerful and dynamic continuous model
+
+### Determinism of ODEs + SDEs
+
+### Analogy to MDPs and ACMDPs

@@ -1,6 +1,7 @@
 import { readdirSync, readFileSync, existsSync } from "fs";
 import { join } from "path";
 import matter from "gray-matter";
+import { externalPosts } from "./external-posts";
 
 export interface BlogPost {
   slug: string;
@@ -10,6 +11,7 @@ export interface BlogPost {
   content: string;
   isDraft: boolean;
   tags?: string[];
+  externalUrl?: string;
 }
 
 const blogDirectory = join(process.cwd(), "content", "blog");
@@ -40,29 +42,54 @@ export function getBlogPosts(): BlogPost[] {
           isDraft: false,
           tags: data.tags || [],
         };
-      })
+      });
+
+    const external = externalPosts.map((p) => ({
+      slug: p.slug,
+      title: p.title,
+      date: p.date,
+      author: p.author,
+      content: "",
+      isDraft: false,
+      tags: p.tags,
+      externalUrl: p.externalUrl,
+    }));
+
+    const now = new Date();
+    now.setHours(23, 59, 59, 999); // include posts dated today
+
+    return [...posts, ...external]
+      .filter((p) => !p.date || new Date(p.date).getTime() <= now.getTime())
       .sort((a, b) => {
-        // Sort by date, newest first
-        // Handle date format like "Jan 09, 2026"
         const dateA = a.date ? new Date(a.date).getTime() : 0;
         const dateB = b.date ? new Date(b.date).getTime() : 0;
         return dateB - dateA;
       });
-
-    return posts;
   } catch (error) {
     // Directory doesn't exist yet, return empty array
     return [];
   }
 }
 
+export function getInternalBlogPosts(): BlogPost[] {
+  return getBlogPosts().filter((p) => !p.externalUrl);
+}
+
 export function getBlogPost(slug: string): BlogPost | null {
+  const now = new Date();
+  now.setHours(23, 59, 59, 999);
+
   try {
     // First check published posts
     const publishedPath = join(blogDirectory, `${slug}.mdx`);
     if (existsSync(publishedPath)) {
       const fileContents = readFileSync(publishedPath, "utf-8");
       const { data, content } = matter(fileContents);
+
+      // Treat future-dated posts as not yet published
+      if (data.date && new Date(data.date).getTime() > now.getTime()) {
+        return null;
+      }
 
       return {
         slug,
