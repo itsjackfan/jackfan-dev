@@ -6,6 +6,8 @@ import remarkMath from "remark-math";
 import rehypeSlug from "rehype-slug";
 import rehypeKatex from "rehype-katex";
 import "katex/dist/katex.min.css";
+import { AgenticExecutionLoopFigure } from "@/components/blog/AgenticExecutionLoopFigure";
+import { ArticleSidebar } from "@/components/blog/ArticleSidebar";
 import { DecisionBoundaryViz } from "@/components/blog/DecisionBoundaryViz";
 
 interface MarkdownContentProps {
@@ -76,6 +78,8 @@ const components = {
     </div>
   ),
   hr: () => <hr className="border my-12" />,
+  AgenticExecutionLoopFigure,
+  ArticleSidebar,
   DecisionBoundaryViz,
   a: ({ href, children }: { href?: string; children?: ReactNode }) => {
     if (!href) {
