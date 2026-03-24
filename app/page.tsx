@@ -30,19 +30,20 @@ export default function Home() {
                     <li key={item.number}>
                       <Link
                         href={item.href}
-                        className="group flex items-start gap-4 text-gray-700 transition-colors hover:text-gray-900"
+                        className="group grid grid-cols-[2rem_1fr] items-center gap-x-2 text-gray-700 transition-colors hover:text-gray-900"
                       >
-                        <span className="text-sm font-normal text-gray-500 pt-0.5">
+                        <span className="text-base font-normal text-gray-500 tabular-nums">
                           {item.number}
                         </span>
-                        <div className="flex flex-col">
-                          <span className="text-lg font-normal">{item.title}</span>
-                          {item.subtitle && (
+                        <span className="text-base font-normal">{item.title}</span>
+                        {item.subtitle && (
+                          <>
+                            <span />
                             <span className="text-sm font-normal text-gray-500 mt-0.5">
                               {item.subtitle}
                             </span>
-                          )}
-                        </div>
+                          </>
+                        )}
                       </Link>
                     </li>
                   ))}

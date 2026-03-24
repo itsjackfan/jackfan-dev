@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 :root {
   --container: 1440px;
   --sectionPy: 96px;
@@ -121,6 +131,7 @@
     transform: translateX(-50%);
   }
 }
+
 
 @media (prefers-reduced-motion: reduce) {
   .animate-neuron {

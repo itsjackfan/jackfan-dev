@@ -1,7 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { getBlogPosts, getAllTags } from "@/lib/blog";
-import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 
 type BlogPostItemProps = {
@@ -23,53 +22,49 @@ function BlogPostItem({ post }: BlogPostItemProps) {
     : null;
 
   return (
-    <div className="rounded-xl border border-gray-200 bg-white p-4 md:p-5 shadow-[0_1px_0_rgba(0,0,0,0.03)] hover:bg-gray-50 transition-colors mb-3">
-      <Link
-        href={href}
-        className="block"
-        {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-      >
-        <div className="space-y-2">
-          <h2 className="flex items-center gap-2 text-base md:text-lg font-medium text-gray-900 transition-colors hover:text-gray-700">
-            {favicon && (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={favicon}
-                alt=""
-                width={16}
-                height={16}
-                className="rounded-sm shrink-0"
-              />
-            )}
-            {post.title}
-          </h2>
+    <Link
+      href={href}
+      className="group block py-6 border-b border-gray-100 last:border-b-0 transition-colors"
+      {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+    >
+      <div className="flex flex-col gap-2">
+        <h2 className="flex items-center gap-2.5 text-lg font-normal text-gray-900 group-hover:text-gray-500 transition-colors leading-relaxed">
+          {favicon && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={favicon}
+              alt=""
+              width={14}
+              height={14}
+              className="shrink-0 opacity-50"
+            />
+          )}
+          <span>{post.title}</span>
+        </h2>
+        <div className="flex items-center gap-3 text-sm text-gray-400">
+          <time className="tabular-nums">{post.date}</time>
+          {post.tags && post.tags.length > 0 && (
+            <>
+              <span className="text-gray-200">·</span>
+              <div className="flex flex-wrap gap-1.5">
+                {post.tags.map((tag) => (
+                  <span
+                    key={tag}
+                    className={`rounded-full px-2 py-0.5 text-xs ${
+                      tag.toLowerCase() === "external"
+                        ? "bg-rose-50 text-rose-400"
+                        : "bg-gray-50 text-gray-400"
+                    }`}
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </>
+          )}
         </div>
-      </Link>
-      {post.tags && post.tags.length > 0 && (
-        <div className="flex flex-wrap gap-1.5 mt-2">
-          {post.tags.map((tag) => {
-            const tagSlug = tag.toLowerCase().replace(/\s+/g, "-");
-            return (
-              <Link
-                key={tag}
-                href={`/blog/tag/${tagSlug}`}
-                className={`px-2 py-0.5 text-xs font-medium rounded-md transition-colors ${
-                  tag.toLowerCase() === "external"
-                    ? "text-rose-500 bg-rose-50 hover:bg-rose-100"
-                    : "text-gray-600 bg-gray-100 hover:bg-gray-200"
-                }`}
-              >
-                {tag}
-              </Link>
-            );
-          })}
-        </div>
-      )}
-      <div className="text-xs text-gray-500 mt-2">
-        {post.date}
-        {post.author && ` · ${post.author}`}
       </div>
-    </div>
+    </Link>
   );
 }
 
@@ -88,7 +83,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { tag } = await params;
   const displayTag = tag === "all" ? "All Posts" : tag.replace(/-/g, " ");
-  
+
   return {
     title: `${displayTag} | The Main Planter`,
     description: `Blog posts tagged with ${displayTag}`,
@@ -104,107 +99,120 @@ export default async function BlogTagPage({
   const allPosts = getBlogPosts();
   const allTags = getAllTags();
 
-  // Normalize tag for comparison
   const normalizedTag = tag.toLowerCase().replace(/\s+/g, "-");
-  
-  // Filter posts
+
   const filteredPosts =
     normalizedTag === "all"
       ? allPosts
       : allPosts.filter((post) =>
-          post.tags?.some((postTag) =>
-            postTag.toLowerCase().replace(/\s+/g, "-") === normalizedTag
+          post.tags?.some(
+            (postTag) =>
+              postTag.toLowerCase().replace(/\s+/g, "-") === normalizedTag
           )
         );
 
-  // Get display name for the tag
-  const displayTag =
-    normalizedTag === "all"
-      ? "All Posts"
-      : allTags.find(
-          (t) => t.toLowerCase().replace(/\s+/g, "-") === normalizedTag
-        ) || tag.replace(/-/g, " ");
-
   return (
-    <div className="min-h-screen bg-white px-6 sm:px-8 lg:px-12">
-      <div className="mx-auto max-w-6xl py-24">
-        <Link
-          href="/"
-          className="group mb-8 inline-flex items-center gap-2 text-sm text-gray-600 transition-colors hover:text-gray-900"
-        >
-          <ArrowLeft className="h-4 w-4 transition-transform duration-200 group-hover:-translate-x-0.5" />
-          <span>Back to home</span>
-        </Link>
+    <div className="flex h-screen flex-col bg-white">
+      <div className="shrink-0 px-6 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-3xl pt-24 pb-8">
+          {/* Back link */}
+          <Link
+            href="/"
+            className="group mb-14 inline-flex items-center gap-2 text-sm text-gray-400 transition-colors hover:text-gray-900"
+          >
+            <ArrowLeft className="h-3.5 w-3.5 transition-transform duration-200 group-hover:-translate-x-0.5" />
+            Home
+          </Link>
 
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-          {/* Sidebar */}
-          <aside className="md:col-span-3">
-            <div className="sticky top-24">
-              <h1 className="text-2xl md:text-3xl font-normal leading-tight text-gray-900 mb-1">
-                <span className="block">The Main Planter</span>
-                <span className="block">
-                  <span className="text-gray-400">/</span>
-                  <span className="text-gray-900"> {displayTag}</span>
-                </span>
-              </h1>
-              <nav className="flex flex-col gap-0 mt-4">
-                <Link
-                  href="/blog/tag/all"
-                  className={`px-2 py-1 rounded-md text-sm transition-colors ${
-                    normalizedTag === "all"
-                      ? "text-white bg-gray-900"
-                      : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"
-                  }`}
-                >
-                  All Posts
-                </Link>
-                {allTags.map((tagOption) => {
-                  const tagSlug = tagOption.toLowerCase().replace(/\s+/g, "-");
-                  const isActive = tagSlug === normalizedTag;
-                  return (
-                    <Link
-                      key={tagOption}
-                      href={`/blog/tag/${tagSlug}`}
-                      className={`px-2 py-1 rounded-md text-sm transition-colors ${
-                        isActive
-                          ? "text-white bg-gray-900"
-                          : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"
-                      }`}
-                    >
-                      {tagOption}
-                    </Link>
-                  );
-                })}
-              </nav>
-            </div>
-          </aside>
+          {/* Header */}
+          <header>
+            <h1 className="text-3xl md:text-4xl font-normal text-gray-900 leading-tight tracking-tight">
+              The Main Planter
+            </h1>
+            <p className="mt-2 text-sm text-gray-400">
+              Follow on{" "}
+              <a
+                href="https://ustilonatus340233.substack.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 underline underline-offset-2 decoration-gray-200 hover:text-gray-900 hover:decoration-gray-400 transition-colors"
+              >
+                Substack
+              </a>
+              {" "}and{" "}
+              <a
+                href="https://linkedin.com/in/jack-fan-dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 underline underline-offset-2 decoration-gray-200 hover:text-gray-900 hover:decoration-gray-400 transition-colors"
+              >
+                LinkedIn
+              </a>
+            </p>
+            <nav className="mt-5 flex flex-wrap items-center gap-x-1.5 gap-y-1.5">
+              <Link
+                href="/blog/tag/all"
+                className={`rounded-full px-3 py-1 text-sm transition-colors ${
+                  normalizedTag === "all"
+                    ? "text-gray-900 bg-gray-100"
+                    : "text-gray-400 hover:text-gray-700 hover:bg-gray-50"
+                }`}
+              >
+                All
+              </Link>
+              {allTags.map((tagOption) => {
+                const tagSlug = tagOption.toLowerCase().replace(/\s+/g, "-");
+                const isActive = tagSlug === normalizedTag;
+                return (
+                  <Link
+                    key={tagOption}
+                    href={`/blog/tag/${tagSlug}`}
+                    className={`rounded-full px-3 py-1 text-sm transition-colors ${
+                      isActive
+                        ? "text-gray-900 bg-gray-100"
+                        : "text-gray-400 hover:text-gray-700 hover:bg-gray-50"
+                    }`}
+                  >
+                    {tagOption}
+                  </Link>
+                );
+              })}
+            </nav>
+          </header>
+        </div>
+      </div>
 
-          {/* Posts Pane */}
-          <section className="md:col-span-9">
+      {/* Divider */}
+      <div className="shrink-0 px-6 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-3xl border-t border-gray-100" />
+      </div>
+
+      {/* Scrollable posts area */}
+      <div className="min-h-0 flex-1 overflow-y-auto scrollbar-hide px-6 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-3xl pb-16">
+          {filteredPosts.length === 0 ? (
+            <p className="text-sm text-gray-400 py-16 text-center">
+              No posts found for this tag.
+            </p>
+          ) : (
             <div>
-              {filteredPosts.length === 0 ? (
-                <div className="text-sm text-gray-500 py-8">
-                  No posts found for this tag.
-                </div>
-              ) : (
-                <div className="flex flex-col gap-3">
-                  {filteredPosts.map((post) => (
-                    <BlogPostItem key={post.slug} post={{
-                      slug: post.slug,
-                      title: post.title,
-                      date: post.date,
-                      author: post.author,
-                      tags: post.tags,
-                      externalUrl: post.externalUrl,
-                    }} />
-                  ))}
-                </div>
-              )}
+              {filteredPosts.map((post) => (
+                <BlogPostItem
+                  key={post.slug}
+                  post={{
+                    slug: post.slug,
+                    title: post.title,
+                    date: post.date,
+                    author: post.author,
+                    tags: post.tags,
+                    externalUrl: post.externalUrl,
+                  }}
+                />
+              ))}
             </div>
-          </section>
+          )}
         </div>
       </div>
     </div>
   );
 }
-

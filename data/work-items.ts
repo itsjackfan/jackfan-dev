@@ -1,70 +1,155 @@
+export type WorkCategory = 'role' | 'project' | 'paper' | 'event' | 'news' | 'book';
+
 export type WorkItem = {
   id: string;
   title: string;
-  description: string;
-  date: string; // Format: "10 Dec 2025", etc.
-  author?: string; // Optional author name
-  link?: string; // Optional link (can be internal like "/work/item-1" or external like "https://example.com")
+  category: WorkCategory;
+  date: string;
+  link?: string;
 };
 
-export const WORK_ITEMS: WorkItem[] = [
-  {
-    id: '1',
-    title: 'Scaling Agentic Intelligence with Principled Multi-agent Decentralisation',
-    description: 'ICML submission with Zhenting Qi and Karly Hou, under the Embodied Minds Lab @ Kempner Institute. Targets the development of a new, generalisable framework for multi-agent interaction and collaboration; the first stepping stone towards a new paradigm for multi-agent system scalability.',
-    date: '28 Jan 2026',
-    author: 'Jack Fan, Zhenting Qi, Karly Hou',
-    link: '/ICML_FINAL.pdf'
-  },
-  {
-    id: '2',
-    title: 'Custom autodiff + backprop',
-    description:
-      'Toy vectorised autodiff engine implemented in Numpy, inspired by autograd; manual backprop and gradient descent computations supported. Optimised 2-layer MLP on MNIST to PyTorch equivalent performance.',
-    date: '26 Dec 2025',
-    author: 'Jack Fan',
-    link: 'https://github.com/itsjackfan/fpu/blob/main/ml/backprop_pytorch.ipynb',
-  },
-  // {
-  //   id: '1',
-  //   title: 'Basis -- towards effective context management in multi-agent systems',
-  //   description:
-  //     'Compositional AI systems final research project: bulding a decentralised memory architecture to promote decentralisation and scalability of multi-agent systems.',
-  //   date: '10 Dec 2025',
-  //   author: 'Jack Fan',
-  //   link: '/basis.pdf',
-  // },
-  {
-    id: '4',
-    title: 'Graphene',
-    description:
-      'Software engineering w/ Generative AI final project: graph-based AI research framework for information extraction and divergence from Arxiv, OpenAlex, CORE, etc.',
-    date: '09 Dec 2025',
-    author: 'Jack Fan, in collaboration with CS1060 Project Team',
-    link: 'https://github.com/cs1060f25/graph-project'
-  },
-  {
-    id: '3',
-    title: 'Sero',
-    description:
-      'Biologically-focussed productivity tool prototype focussed on kairos productivity (see Tiny Experiments by Anne-Laure Le Cunff).',
-    date: '04 Dec 2025',
-    author: 'Jack Fan, in collaboration with ES239 Project Team',
-    link: 'https://github.com/itsjackfan/sero'
-  },
-  {
-    id: '5',
-    title: 'Knowledger',
-    description:
-      'Graph-based knowledge management system focussed on quick capture and efficient retrieval of information. What started my obsession with personal knowledge management, graphs, context/the search problem, and AI agents (lwk everything I work on nowadays).',
-    date: '18 Oct 2024',
-    author: 'Jack Fan and Jaden Zhang',
-    link: 'https://github.com/knowledger-dev/knowledger'
-  }
-];
+export const CATEGORY_LABELS: Record<WorkCategory, string> = {
+  role: 'Role',
+  project: 'Project',
+  paper: 'Paper',
+  book: 'Book',
+  event: 'Event',
+  news: 'News',
+};
 
-// Get all work items
-export function getAllWorkItems(): WorkItem[] {
-  return WORK_ITEMS;
+const MONTHS: Record<string, number> = {
+  Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6,
+  Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12,
+};
+
+function parseDateKey(date: string): number {
+  const match = date.match(/([A-Z][a-z]{2})\s+(\d{4})/);
+  if (match) return parseInt(match[2]) * 100 + MONTHS[match[1]];
+  const yearMatch = date.match(/(\d{4})/);
+  if (yearMatch) return parseInt(yearMatch[1]) * 100;
+  return 0;
 }
 
+export const WORK_ITEMS: WorkItem[] = [
+  // --- Roles ---
+  {
+    id: 'thirdlayer-blog',
+    title: 'Transitioned off engineering work into blogging for ThirdLayer instead.',
+    category: 'role',
+    date: 'Jan 2026',
+    link: 'https://jackfan.dev/blog'
+  },
+  {
+    id: 'kempner',
+    title: 'Took CS2821r with Prof. Yilun Du. Found it really interesting, so I joined his lab (Embodied Minds Lab).',
+    category: 'role',
+    date: 'Dec 2025',
+  },
+  {
+    id: 'thirdlayer',
+    title: 'Cold-DM\'d Regina and started as a forward-deployed and engineer at ThirdLayer (YC W25).',
+    category: 'role',
+    date: 'Sep 2025',
+  },
+  {
+    id: 'series',
+    title: 'Solo / founding engineer @ Series. Learned 80% of what I know about full-stack and product engineering (and vibe coding).',
+    category: 'role',
+    date: 'Apr 2025',
+  },
+  {
+    id: 't4sg-dopf',
+    title: 'First board position as director of partnerships and funding for T4SG. Met a TON of cool people / companies, learned how to sell and outreach, and made $9k+ in sponsorships.',
+    category: 'role',
+    date: 'Dec 2024',
+  },
+  {
+    id: 't4sg',
+    title: 'Became a project lead for Harvard T4SG\'s Ersilia project.',
+    category: 'role',
+    date: 'Oct 2024',
+  },
+  {
+    id: 'htsg',
+    title: 'Joined Harvard T4SG. First exposure to proper full-stack engineering, webdev, applied AI work, and collaborative software engineering.',
+    category: 'role',
+    date: 'Sep 2024',
+  },
+  {
+    id: 'columbia',
+    title: 'First research experience (computational neuroscience) @ Columbia University Medical Centre. Genetic causal factors for schizophrenia and psychiatric conditions.',
+    category: 'role',
+    date: 'Sep 2022 — Apr 2023',
+    link: 'https://www.biorxiv.org/content/10.1101/2025.03.26.645419v1.full.pdf',
+  },
+
+  // --- Papers & publications ---
+  {
+    id: 'icml-2026',
+    title: 'First ML paper submitted (ICML; Scaling Agentic Intelligence with Principled Multi-agent Decentralisation).',
+    category: 'paper',
+    date: 'Jan 2026',
+    link: '/ICML_FINAL.pdf',
+  },
+  {
+    id: 'setd1a',
+    title: 'First paper publication w/ CUMC (biorxiv; Genomic and transcriptomic signatures of SETD1A disruption...)',
+    category: 'paper',
+    date: 'Mar 2025',
+    link: 'https://www.biorxiv.org/content/10.1101/2025.03.26.645419v1.full.pdf',
+  },
+  {
+    id: 'quantum-leap',
+    title: 'First book publication: A Quantum Leap Forward, a simple quantum computing explainer intended for other high schoolers interested in the field.',
+    category: 'book',
+    date: 'Mar 2023',
+  },
+
+  // --- Events ---
+  {
+    id: 'gates-workshop',
+    title: 'Attended Gates Foundation workshop on LLM-based agent memory in Seattle.',
+    category: 'event',
+    date: 'Mar 2026',
+    link: 'https://jackfan.dev/blog/memory'
+  },
+
+  // --- Projects ---
+  {
+    id: 'autodiff',
+    title: 'Started getting interested in ML and foundations. Built a custom autodiff + backprop engine a la Karpathy micrograd.',
+    category: 'project',
+    date: 'Dec 2025',
+    link: 'https://github.com/itsjackfan/fpu/blob/main/ml/backprop_pytorch.ipynb',
+  },
+  {
+    id: 'graphene',
+    title: 'Graphene: class project for Harvard CS1060 (a final foray into proper full-stack eng).',
+    category: 'project',
+    date: 'Nov 2025',
+    link: 'https://github.com/cs1060f25/graph-project',
+  },
+  {
+    id: 'sero',
+    title: 'Sero: class project for Harvard ES239 (also part of a final foray into proper full-stack eng).',
+    category: 'project',
+    date: 'Nov 2025',
+    link: 'https://github.com/itsjackfan/sero',
+  },
+  {
+    id: 'knowledger',
+    title: 'Where it all started (full-stack, knowledge graphs, applied AI, hating on embeddings, etc.). Built Knowledger, a notetaking app focussed on self-organisation and quick capture.',
+    category: 'project',
+    date: 'Nov 2024',
+    link: 'https://github.com/knowledger-dev/knowledger',
+  },
+];
+
+export function getAllWorkItems(): WorkItem[] {
+  const indexed = WORK_ITEMS.map((item, i) => ({ item, i }));
+  indexed.sort((a, b) => {
+    const diff = parseDateKey(b.item.date) - parseDateKey(a.item.date);
+    return diff !== 0 ? diff : a.i - b.i;
+  });
+  return indexed.map(({ item }) => item);
+}
