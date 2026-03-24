@@ -79,7 +79,7 @@ export const WORK_ITEMS: WorkItem[] = [
     id: 'columbia',
     title: 'First research experience (computational neuroscience) @ Columbia University Medical Centre. Genetic causal factors for schizophrenia and psychiatric conditions.',
     category: 'role',
-    date: 'Sep 2022 — Apr 2023',
+    date: 'Sep 2022',
     link: 'https://www.biorxiv.org/content/10.1101/2025.03.26.645419v1.full.pdf',
   },
 
