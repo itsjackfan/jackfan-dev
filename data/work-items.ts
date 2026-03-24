@@ -46,6 +46,12 @@ export const WORK_ITEMS: WorkItem[] = [
     date: 'Dec 2025',
   },
   {
+    id: 'the-collective',
+    title: 'Joined The Collective as a Founding Fellow (on my growth arc). Running monthly high-density dinners in Boston.',
+    category: 'role',
+    date: 'Nov 2025',
+  },
+  {
     id: 'thirdlayer',
     title: 'Cold-DM\'d Regina and started as a forward-deployed and engineer at ThirdLayer (YC W25).',
     category: 'role',
