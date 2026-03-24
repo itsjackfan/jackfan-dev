@@ -5,9 +5,9 @@ import { AsciiRipple } from '@/components/background/AsciiRipple';
 
 export default function Home() {
   const tableOfContents = [
-    { number: '01', title: 'My Work', subtitle: 'The most important roles, projects, and ideas that I put my time into.', href: '/work' },
+    { number: '01', title: 'The Timeline', subtitle: 'The most important roles, projects, and ideas that I put my time into.', href: '/work' },
     { number: '02', title: 'The Main Planter', subtitle: 'A microcosm of some of my thoughts; expect both technical and life-related content, as well as different lengths of content. The tags are the ground truth (hopefully).', href: '/blog' },
-    { number: '03', title: 'A Birds-Eye View', subtitle: 'Quite literally, I think in graphs...a visualisation of my internal notes and thoughts. Updated roughly every week.', href: '/graph' }
+    { number: '03', title: 'The Birds-Eye View', subtitle: 'Quite literally, I think in graphs...a visualisation of my internal notes and thoughts. Updated roughly every week.', href: '/graph' }
   ];
 
   return (

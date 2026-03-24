@@ -18,7 +18,7 @@ export default function WorkPage() {
         </Link>
 
         <h1 className="text-3xl md:text-4xl font-normal text-gray-900 leading-tight tracking-tight">
-          My Work
+          The Timeline
         </h1>
         <p className="mt-3 text-sm text-gray-400 leading-relaxed">
           The most important roles, projects, and ideas that I put my time into.
