@@ -74,7 +74,7 @@ export default function Home() {
       <div className="relative z-10 flex flex-col items-center gap-4 pb-8 sm:pb-12 lg:pb-16">
         {/* Resume Button - Liquid Glassmorphic */}
         <a
-          href="/JF_resume_05feb.pdf"
+          href="/JF_resume.pdf"
           target="_blank"
           rel="noreferrer"
           className="group relative overflow-hidden rounded-2xl border border-white/20 bg-gradient-to-br from-white/10 via-white/5 to-white/0 px-6 py-3 backdrop-blur-md transition-all duration-300 hover:border-white/30 hover:from-white/15 hover:via-white/10 hover:to-white/5 hover:shadow-lg hover:shadow-gray-900/10"

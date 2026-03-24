@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
-import { getAllTimelineEntries } from '@/data/timeline-items';
+// import { getAllTimelineEntries } from '@/data/timeline-items';
 import { TimelineView } from '@/components/work/TimelineView';
 
 export default function WorkPage() {
-  const entries = getAllTimelineEntries();
+  // const entries = getAllTimelineEntries();
 
   return (
     <div className="min-h-screen bg-white px-6 sm:px-8 lg:px-12">
@@ -26,7 +26,7 @@ export default function WorkPage() {
           </p>
         </div>
 
-        <TimelineView entries={entries} />
+        {/* <TimelineView entries={entries} /> */}
       </div>
     </div>
   );

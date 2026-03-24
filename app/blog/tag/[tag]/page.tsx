@@ -140,8 +140,12 @@ export default async function BlogTagPage({
           {/* Sidebar */}
           <aside className="md:col-span-3">
             <div className="sticky top-24">
-              <h1 className="text-2xl md:text-3xl font-normal text-gray-900 mb-1 leading-tight">
-                The Main Planter <span className="text-gray-400">/</span> {displayTag}
+              <h1 className="text-2xl md:text-3xl font-normal leading-tight text-gray-900 mb-1">
+                <span className="block">The Main Planter</span>
+                <span className="block">
+                  <span className="text-gray-400">/</span>
+                  <span className="text-gray-900"> {displayTag}</span>
+                </span>
               </h1>
               <nav className="flex flex-col gap-0 mt-4">
                 <Link

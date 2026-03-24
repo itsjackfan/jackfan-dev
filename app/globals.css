@@ -9,6 +9,11 @@
 }
 
 @layer base {
+  html {
+    /* Avoid centered layouts (e.g. blog) shifting when scrollbar appears */
+    scrollbar-gutter: stable;
+  }
+
   * {
     @apply antialiased;
   }
