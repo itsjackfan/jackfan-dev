@@ -1,33 +1,6 @@
 {
   "nodes": [
     {
-      "id": "Open loops",
-      "label": "Open loops",
-      "tags": [
-        "thought"
-      ],
-      "color": "#888888",
-      "path": "Open loops"
-    },
-    {
-      "id": "Personal optimisation policy",
-      "label": "Personal optimisation policy",
-      "tags": [
-        "thought"
-      ],
-      "color": "#888888",
-      "path": "Personal optimisation policy"
-    },
-    {
-      "id": "The currency of fulfillment",
-      "label": "The currency of fulfillment",
-      "tags": [
-        "thought"
-      ],
-      "color": "#888888",
-      "path": "The currency of fulfillment"
-    },
-    {
       "id": "clippings/CollabLLM",
       "label": "CollabLLM",
       "tags": [
@@ -216,6 +189,1091 @@
       ],
       "color": "#888888",
       "path": "clippings/making and keeping friends"
+    },
+    {
+      "id": "others/Adam Khouja",
+      "label": "Adam Khouja",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Adam Khouja"
+    },
+    {
+      "id": "others/Adam Park",
+      "label": "Adam Park",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Adam Park"
+    },
+    {
+      "id": "others/Advikar Ananthkumar",
+      "label": "Advikar Ananthkumar",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Advikar Ananthkumar"
+    },
+    {
+      "id": "others/Ajax Fu",
+      "label": "Ajax Fu",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Ajax Fu"
+    },
+    {
+      "id": "others/Akhil Manjesh",
+      "label": "Akhil Manjesh",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Akhil Manjesh"
+    },
+    {
+      "id": "others/Alec Dewulf",
+      "label": "Alec Dewulf",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Alec Dewulf"
+    },
+    {
+      "id": "others/Alessandro Caporiccio",
+      "label": "Alessandro Caporiccio",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Alessandro Caporiccio"
+    },
+    {
+      "id": "others/Alex Dong",
+      "label": "Alex Dong",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Alex Dong"
+    },
+    {
+      "id": "others/Alex Tong",
+      "label": "Alex Tong",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Alex Tong"
+    },
+    {
+      "id": "others/Alisona Le",
+      "label": "Alisona Le",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Alisona Le"
+    },
+    {
+      "id": "others/Alyssa Acosta",
+      "label": "Alyssa Acosta",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Alyssa Acosta"
+    },
+    {
+      "id": "others/Alyssa Cai",
+      "label": "Alyssa Cai",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Alyssa Cai"
+    },
+    {
+      "id": "others/Ambilu Sivabalan",
+      "label": "Ambilu Sivabalan",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Ambilu Sivabalan"
+    },
+    {
+      "id": "others/Anchal Bhardwaj",
+      "label": "Anchal Bhardwaj",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Anchal Bhardwaj"
+    },
+    {
+      "id": "others/Andre Kirby",
+      "label": "Andre Kirby",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Andre Kirby"
+    },
+    {
+      "id": "others/Andrew Yang",
+      "label": "Andrew Yang",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Andrew Yang"
+    },
+    {
+      "id": "others/Angelina Tan",
+      "label": "Angelina Tan",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Angelina Tan"
+    },
+    {
+      "id": "others/Anirudh Jain",
+      "label": "Anirudh Jain",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Anirudh Jain"
+    },
+    {
+      "id": "others/Anne Lee Skates",
+      "label": "Anne Lee Skates",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Anne Lee Skates"
+    },
+    {
+      "id": "others/Anthony Shen",
+      "label": "Anthony Shen",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Anthony Shen"
+    },
+    {
+      "id": "others/Ary Shrivastava",
+      "label": "Ary Shrivastava",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Ary Shrivastava"
+    },
+    {
+      "id": "others/Austin Morales",
+      "label": "Austin Morales",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Austin Morales"
+    },
+    {
+      "id": "others/Axel Soderquist",
+      "label": "Axel Soderquist",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Axel Soderquist"
+    },
+    {
+      "id": "others/Beamlak Birhane",
+      "label": "Beamlak Birhane",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Beamlak Birhane"
+    },
+    {
+      "id": "others/Beth Porter",
+      "label": "Beth Porter",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Beth Porter"
+    },
+    {
+      "id": "others/Boaz Fachler",
+      "label": "Boaz Fachler",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Boaz Fachler"
+    },
+    {
+      "id": "others/Bonnie Chan",
+      "label": "Bonnie Chan",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Bonnie Chan"
+    },
+    {
+      "id": "others/Brayden Lee",
+      "label": "Brayden Lee",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Brayden Lee"
+    },
+    {
+      "id": "others/Bryan Lim",
+      "label": "Bryan Lim",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Bryan Lim"
+    },
+    {
+      "id": "others/Caleb Capoccia",
+      "label": "Caleb Capoccia",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Caleb Capoccia"
+    },
+    {
+      "id": "others/Calvin Chen",
+      "label": "Calvin Chen",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Calvin Chen"
+    },
+    {
+      "id": "others/Cece Nguyen",
+      "label": "Cece Nguyen",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Cece Nguyen"
+    },
+    {
+      "id": "others/Charles Cui",
+      "label": "Charles Cui",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Charles Cui"
+    },
+    {
+      "id": "others/Charlie Chen",
+      "label": "Charlie Chen",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Charlie Chen"
+    },
+    {
+      "id": "others/Chris Leiter",
+      "label": "Chris Leiter",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Chris Leiter"
+    },
+    {
+      "id": "others/Connor Leyden",
+      "label": "Connor Leyden",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Connor Leyden"
+    },
+    {
+      "id": "others/Dan Nguyen",
+      "label": "Dan Nguyen",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Dan Nguyen"
+    },
+    {
+      "id": "others/Daniel Jung",
+      "label": "Daniel Jung",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Daniel Jung"
+    },
+    {
+      "id": "others/Darren Ath-Ly",
+      "label": "Darren Ath-Ly",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Darren Ath-Ly"
+    },
+    {
+      "id": "others/David Cao",
+      "label": "David Cao",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/David Cao"
+    },
+    {
+      "id": "others/Diogo Alvarado",
+      "label": "Diogo Alvarado",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Diogo Alvarado"
+    },
+    {
+      "id": "others/Disha Karale",
+      "label": "Disha Karale",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Disha Karale"
+    },
+    {
+      "id": "others/Edo Sibilia",
+      "label": "Edo Sibilia",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Edo Sibilia"
+    },
+    {
+      "id": "others/Edward Zhang",
+      "label": "Edward Zhang",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Edward Zhang"
+    },
+    {
+      "id": "others/Eli Muraoka",
+      "label": "Eli Muraoka",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Eli Muraoka"
+    },
+    {
+      "id": "others/Eli Olcott",
+      "label": "Eli Olcott",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Eli Olcott"
+    },
+    {
+      "id": "others/Elizabeth Ren",
+      "label": "Elizabeth Ren",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Elizabeth Ren"
+    },
+    {
+      "id": "others/Elson Bankhoff",
+      "label": "Elson Bankhoff",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Elson Bankhoff"
+    },
+    {
+      "id": "others/Emily Wheeler",
+      "label": "Emily Wheeler",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Emily Wheeler"
+    },
+    {
+      "id": "others/Eric Ge",
+      "label": "Eric Ge",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Eric Ge"
+    },
+    {
+      "id": "others/Ester Moy",
+      "label": "Ester Moy",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Ester Moy"
+    },
+    {
+      "id": "others/Ethan Nguyen",
+      "label": "Ethan Nguyen",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Ethan Nguyen"
+    },
+    {
+      "id": "others/Eunice Lai",
+      "label": "Eunice Lai",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Eunice Lai"
+    },
+    {
+      "id": "others/Evan Kim",
+      "label": "Evan Kim",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Evan Kim"
+    },
+    {
+      "id": "others/Felix Lou",
+      "label": "Felix Lou",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Felix Lou"
+    },
+    {
+      "id": "others/Foy Dosunmu",
+      "label": "Foy Dosunmu",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Foy Dosunmu"
+    },
+    {
+      "id": "others/Gavin Lifrieri",
+      "label": "Gavin Lifrieri",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Gavin Lifrieri"
+    },
+    {
+      "id": "others/Gitika Pahwa",
+      "label": "Gitika Pahwa",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Gitika Pahwa"
+    },
+    {
+      "id": "others/Haley Jeffers",
+      "label": "Haley Jeffers",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Haley Jeffers"
+    },
+    {
+      "id": "others/Hana Boulware",
+      "label": "Hana Boulware",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Hana Boulware"
+    },
+    {
+      "id": "others/Harvin Park",
+      "label": "Harvin Park",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Harvin Park"
+    },
+    {
+      "id": "others/Hillary Tong",
+      "label": "Hillary Tong",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Hillary Tong"
+    },
+    {
+      "id": "others/Hrishi Patil",
+      "label": "Hrishi Patil",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Hrishi Patil"
+    },
+    {
+      "id": "others/Huan Song",
+      "label": "Huan Song",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Huan Song"
+    },
+    {
+      "id": "others/Ines Im",
+      "label": "Ines Im",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Ines Im"
+    },
+    {
+      "id": "others/Isabel Xue",
+      "label": "Isabel Xue",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Isabel Xue"
+    },
+    {
+      "id": "others/Jackson Moody",
+      "label": "Jackson Moody",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Jackson Moody"
+    },
+    {
+      "id": "others/Jade Webb",
+      "label": "Jade Webb",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Jade Webb"
+    },
+    {
+      "id": "others/Jaden Zhang",
+      "label": "Jaden Zhang",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Jaden Zhang"
+    },
+    {
+      "id": "others/James Lu",
+      "label": "James Lu",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/James Lu"
+    },
+    {
+      "id": "others/James Zhang",
+      "label": "James Zhang",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/James Zhang"
+    },
+    {
+      "id": "others/Jamil Dewsi",
+      "label": "Jamil Dewsi",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Jamil Dewsi"
+    },
+    {
+      "id": "others/Jaren Glover",
+      "label": "Jaren Glover",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Jaren Glover"
+    },
+    {
+      "id": "others/Jason Lin",
+      "label": "Jason Lin",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Jason Lin"
+    },
+    {
+      "id": "others/Jessica Liu",
+      "label": "Jessica Liu",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Jessica Liu"
+    },
+    {
+      "id": "others/Jonas Willett",
+      "label": "Jonas Willett",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Jonas Willett"
+    },
+    {
+      "id": "others/Jonny Zhang",
+      "label": "Jonny Zhang",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Jonny Zhang"
+    },
+    {
+      "id": "others/Josh Zyzak",
+      "label": "Josh Zyzak",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Josh Zyzak"
+    },
+    {
+      "id": "others/Jude Partovi",
+      "label": "Jude Partovi",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Jude Partovi"
+    },
+    {
+      "id": "others/Julia Alvarenga",
+      "label": "Julia Alvarenga",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Julia Alvarenga"
+    },
+    {
+      "id": "others/Justen Wen",
+      "label": "Justen Wen",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Justen Wen"
+    },
+    {
+      "id": "others/Justin Ji",
+      "label": "Justin Ji",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Justin Ji"
+    },
+    {
+      "id": "others/Kaden Zheng",
+      "label": "Kaden Zheng",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Kaden Zheng"
+    },
+    {
+      "id": "others/Katherine Byunn-Rieder",
+      "label": "Katherine Byunn-Rieder",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Katherine Byunn-Rieder"
+    },
+    {
+      "id": "others/Kelvin Cheung",
+      "label": "Kelvin Cheung",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Kelvin Cheung"
+    },
+    {
+      "id": "others/Kenneth Chen",
+      "label": "Kenneth Chen",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Kenneth Chen"
+    },
+    {
+      "id": "others/Kevin Gu",
+      "label": "Kevin Gu",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Kevin Gu"
+    },
+    {
+      "id": "others/Kevin McLeod",
+      "label": "Kevin McLeod",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Kevin McLeod"
+    },
+    {
+      "id": "others/Kevin Yang",
+      "label": "Kevin Yang",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Kevin Yang"
+    },
+    {
+      "id": "others/Kyle Neeley",
+      "label": "Kyle Neeley",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Kyle Neeley"
+    },
+    {
+      "id": "others/Lev Stambler",
+      "label": "Lev Stambler",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Lev Stambler"
+    },
+    {
+      "id": "others/Lisa Wu",
+      "label": "Lisa Wu",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Lisa Wu"
+    },
+    {
+      "id": "others/Louis Chung",
+      "label": "Louis Chung",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Louis Chung"
+    },
+    {
+      "id": "others/Lucas Chu",
+      "label": "Lucas Chu",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Lucas Chu"
+    },
+    {
+      "id": "others/Maddox Godwin",
+      "label": "Maddox Godwin",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Maddox Godwin"
+    },
+    {
+      "id": "others/Maggie Kirtley",
+      "label": "Maggie Kirtley",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Maggie Kirtley"
+    },
+    {
+      "id": "others/Marcus Chau",
+      "label": "Marcus Chau",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Marcus Chau"
+    },
+    {
+      "id": "others/Matteo Cagliaro",
+      "label": "Matteo Cagliaro",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Matteo Cagliaro"
+    },
+    {
+      "id": "others/Maurice El Helou",
+      "label": "Maurice El Helou",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Maurice El Helou"
+    },
+    {
+      "id": "others/Max Zang",
+      "label": "Max Zang",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Max Zang"
+    },
+    {
+      "id": "others/Maxwell Zen",
+      "label": "Maxwell Zen",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Maxwell Zen"
+    },
+    {
+      "id": "others/Maxx Yung",
+      "label": "Maxx Yung",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Maxx Yung"
+    },
+    {
+      "id": "others/Michael Lin",
+      "label": "Michael Lin",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Michael Lin"
+    },
+    {
+      "id": "others/Michael Long",
+      "label": "Michael Long",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Michael Long"
+    },
+    {
+      "id": "others/Michael Wang",
+      "label": "Michael Wang",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Michael Wang"
+    },
+    {
+      "id": "others/Mihir Arya",
+      "label": "Mihir Arya",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Mihir Arya"
+    },
+    {
+      "id": "others/Mohamed Zidan Cassim",
+      "label": "Mohamed Zidan Cassim",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Mohamed Zidan Cassim"
+    },
+    {
+      "id": "others/Nathan Chen",
+      "label": "Nathan Chen",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Nathan Chen"
+    },
+    {
+      "id": "others/Neal Chopra",
+      "label": "Neal Chopra",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Neal Chopra"
+    },
+    {
+      "id": "others/Ned Koh",
+      "label": "Ned Koh",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Ned Koh"
+    },
+    {
+      "id": "others/Nim Ravid",
+      "label": "Nim Ravid",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Nim Ravid"
+    },
+    {
+      "id": "others/Ossimi Ziv",
+      "label": "Ossimi Ziv",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Ossimi Ziv"
+    },
+    {
+      "id": "others/Patrick Circelli",
+      "label": "Patrick Circelli",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Patrick Circelli"
+    },
+    {
+      "id": "others/Paul Fu",
+      "label": "Paul Fu",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Paul Fu"
+    },
+    {
+      "id": "others/Pranav Chivukula",
+      "label": "Pranav Chivukula",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Pranav Chivukula"
+    },
+    {
+      "id": "others/Rachel Chan",
+      "label": "Rachel Chan",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Rachel Chan"
+    },
+    {
+      "id": "others/Raj Khare",
+      "label": "Raj Khare",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Raj Khare"
+    },
+    {
+      "id": "others/Regina Lin",
+      "label": "Regina Lin",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Regina Lin"
+    },
+    {
+      "id": "others/Revin Jun",
+      "label": "Revin Jun",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Revin Jun"
+    },
+    {
+      "id": "others/Reza Shamji",
+      "label": "Reza Shamji",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Reza Shamji"
+    },
+    {
+      "id": "others/Rhythm Garg",
+      "label": "Rhythm Garg",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Rhythm Garg"
+    },
+    {
+      "id": "others/Rich Zou",
+      "label": "Rich Zou",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Rich Zou"
+    },
+    {
+      "id": "others/Rina Mazor",
+      "label": "Rina Mazor",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Rina Mazor"
+    },
+    {
+      "id": "others/Ron Nachum",
+      "label": "Ron Nachum",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Ron Nachum"
+    },
+    {
+      "id": "others/Ryan Durkin",
+      "label": "Ryan Durkin",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Ryan Durkin"
+    },
+    {
+      "id": "others/Sam Chen",
+      "label": "Sam Chen",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Sam Chen"
+    },
+    {
+      "id": "others/Sam Spelsberg",
+      "label": "Sam Spelsberg",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Sam Spelsberg"
+    },
+    {
+      "id": "others/Samuel Ren",
+      "label": "Samuel Ren",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Samuel Ren"
+    },
+    {
+      "id": "others/Sathvik Appana",
+      "label": "Sathvik Appana",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Sathvik Appana"
+    },
+    {
+      "id": "others/Sean Cai",
+      "label": "Sean Cai",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Sean Cai"
+    },
+    {
+      "id": "others/Sean Robins",
+      "label": "Sean Robins",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Sean Robins"
+    },
+    {
+      "id": "others/Seiji Aoki",
+      "label": "Seiji Aoki",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Seiji Aoki"
+    },
+    {
+      "id": "others/Semih Gultekin",
+      "label": "Semih Gultekin",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Semih Gultekin"
+    },
+    {
+      "id": "others/Sid Rastogi",
+      "label": "Sid Rastogi",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Sid Rastogi"
+    },
+    {
+      "id": "others/Sishir Mahavadi",
+      "label": "Sishir Mahavadi",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Sishir Mahavadi"
+    },
+    {
+      "id": "others/Steven Cao",
+      "label": "Steven Cao",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Steven Cao"
+    },
+    {
+      "id": "others/Taylor Jacobson",
+      "label": "Taylor Jacobson",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Taylor Jacobson"
+    },
+    {
+      "id": "others/Taylor Offer",
+      "label": "Taylor Offer",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Taylor Offer"
+    },
+    {
+      "id": "others/Tejas Patnaik",
+      "label": "Tejas Patnaik",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Tejas Patnaik"
+    },
+    {
+      "id": "others/Tommy Lee",
+      "label": "Tommy Lee",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Tommy Lee"
+    },
+    {
+      "id": "others/Tridahtri Vallmakondu",
+      "label": "Tridahtri Vallmakondu",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Tridahtri Vallmakondu"
+    },
+    {
+      "id": "others/Vedic Patel",
+      "label": "Vedic Patel",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Vedic Patel"
+    },
+    {
+      "id": "others/Vihaan Gupta",
+      "label": "Vihaan Gupta",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Vihaan Gupta"
+    },
+    {
+      "id": "others/Vikram Anantha",
+      "label": "Vikram Anantha",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Vikram Anantha"
+    },
+    {
+      "id": "others/Vincent Song",
+      "label": "Vincent Song",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Vincent Song"
+    },
+    {
+      "id": "others/Will Lamond",
+      "label": "Will Lamond",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Will Lamond"
+    },
+    {
+      "id": "others/William Chen",
+      "label": "William Chen",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/William Chen"
+    },
+    {
+      "id": "others/William Gao",
+      "label": "William Gao",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/William Gao"
+    },
+    {
+      "id": "others/Wilson Cheung",
+      "label": "Wilson Cheung",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Wilson Cheung"
+    },
+    {
+      "id": "others/Xin Liu",
+      "label": "Xin Liu",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Xin Liu"
+    },
+    {
+      "id": "others/Yerim Colin",
+      "label": "Yerim Colin",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Yerim Colin"
+    },
+    {
+      "id": "others/Zach Chen",
+      "label": "Zach Chen",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Zach Chen"
+    },
+    {
+      "id": "others/Zafar Mamat",
+      "label": "Zafar Mamat",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Zafar Mamat"
+    },
+    {
+      "id": "others/Zexue He",
+      "label": "Zexue He",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Zexue He"
+    },
+    {
+      "id": "others/Zhenting Qi",
+      "label": "Zhenting Qi",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Zhenting Qi"
     },
     {
       "id": "the main planter/\"Enough\" time",
@@ -756,6 +1814,15 @@
       "path": "the main planter/Non-directional maximalism"
     },
     {
+      "id": "the main planter/Open loops",
+      "label": "Open loops",
+      "tags": [
+        "thought"
+      ],
+      "color": "#888888",
+      "path": "the main planter/Open loops"
+    },
+    {
       "id": "the main planter/OpenAI Spinning Up",
       "label": "OpenAI Spinning Up",
       "tags": [
@@ -801,6 +1868,15 @@
       ],
       "color": "#888888",
       "path": "the main planter/People-pleasing"
+    },
+    {
+      "id": "the main planter/Personal optimisation policy",
+      "label": "Personal optimisation policy",
+      "tags": [
+        "thought"
+      ],
+      "color": "#888888",
+      "path": "the main planter/Personal optimisation policy"
     },
     {
       "id": "the main planter/Productivity momentum",
@@ -929,6 +2005,15 @@
       ],
       "color": "#888888",
       "path": "the main planter/The Collective events"
+    },
+    {
+      "id": "the main planter/The currency of fulfillment",
+      "label": "The currency of fulfillment",
+      "tags": [
+        "thought"
+      ],
+      "color": "#888888",
+      "path": "the main planter/The currency of fulfillment"
     },
     {
       "id": "the main planter/The winter break special",
@@ -1391,10 +2476,6 @@
   ],
   "links": [
     {
-      "source": "Open loops",
-      "target": "the main planter/Consistency"
-    },
-    {
       "source": "clippings/Don’t Surround Yourself With Smarter People",
       "target": "the main planter/life gamescape"
     },
@@ -1485,6 +2566,26 @@
     {
       "source": "clippings/making and keeping friends",
       "target": "clippings/Intentionally Making Close Friends"
+    },
+    {
+      "source": "others/Alyssa Acosta",
+      "target": "others/Brayden Lee"
+    },
+    {
+      "source": "others/Alyssa Acosta",
+      "target": "others/Justen Wen"
+    },
+    {
+      "source": "others/Alyssa Acosta",
+      "target": "others/Angelina Tan"
+    },
+    {
+      "source": "others/Diogo Alvarado",
+      "target": "others/Alisona Le"
+    },
+    {
+      "source": "others/Will Lamond",
+      "target": "others/Ryan Durkin"
     },
     {
       "source": "the main planter/\"Enough\" time",
@@ -2240,7 +3341,7 @@
     },
     {
       "source": "the main planter/Me.",
-      "target": "Personal optimisation policy"
+      "target": "the main planter/Personal optimisation policy"
     },
     {
       "source": "the main planter/Me.",
@@ -2248,7 +3349,7 @@
     },
     {
       "source": "the main planter/Me.",
-      "target": "Open loops"
+      "target": "the main planter/Open loops"
     },
     {
       "source": "the main planter/Me.",
@@ -2357,6 +3458,10 @@
     {
       "source": "the main planter/Non-directional maximalism",
       "target": "the main planter/Starting instead of continuing"
+    },
+    {
+      "source": "the main planter/Open loops",
+      "target": "the main planter/Consistency"
     },
     {
       "source": "the main planter/Others.",
