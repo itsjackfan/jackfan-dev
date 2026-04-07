@@ -205,13 +205,6 @@
       "path": "others/Adam Park"
     },
     {
-      "id": "others/Advikar Ananthkumar",
-      "label": "Advikar Ananthkumar",
-      "tags": [],
-      "color": "#888888",
-      "path": "others/Advikar Ananthkumar"
-    },
-    {
       "id": "others/Ajax Fu",
       "label": "Ajax Fu",
       "tags": [],
@@ -273,13 +266,6 @@
       "tags": [],
       "color": "#888888",
       "path": "others/Alyssa Cai"
-    },
-    {
-      "id": "others/Ambilu Sivabalan",
-      "label": "Ambilu Sivabalan",
-      "tags": [],
-      "color": "#888888",
-      "path": "others/Ambilu Sivabalan"
     },
     {
       "id": "others/Anchal Bhardwaj",
@@ -457,13 +443,6 @@
       "path": "others/Daniel Jung"
     },
     {
-      "id": "others/Darren Ath-Ly",
-      "label": "Darren Ath-Ly",
-      "tags": [],
-      "color": "#888888",
-      "path": "others/Darren Ath-Ly"
-    },
-    {
       "id": "others/David Cao",
       "label": "David Cao",
       "tags": [],
@@ -632,13 +611,6 @@
       "path": "others/Hrishi Patil"
     },
     {
-      "id": "others/Huan Song",
-      "label": "Huan Song",
-      "tags": [],
-      "color": "#888888",
-      "path": "others/Huan Song"
-    },
-    {
       "id": "others/Ines Im",
       "label": "Ines Im",
       "tags": [],
@@ -742,13 +714,6 @@
       "tags": [],
       "color": "#888888",
       "path": "others/Jude Partovi"
-    },
-    {
-      "id": "others/Julia Alvarenga",
-      "label": "Julia Alvarenga",
-      "tags": [],
-      "color": "#888888",
-      "path": "others/Julia Alvarenga"
     },
     {
       "id": "others/Justen Wen",
@@ -1059,6 +1024,13 @@
       "path": "others/Ron Nachum"
     },
     {
+      "id": "others/Ronnie Prasad",
+      "label": "Ronnie Prasad",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Ronnie Prasad"
+    },
+    {
       "id": "others/Ryan Durkin",
       "label": "Ryan Durkin",
       "tags": [],
@@ -1106,13 +1078,6 @@
       "tags": [],
       "color": "#888888",
       "path": "others/Sean Robins"
-    },
-    {
-      "id": "others/Seiji Aoki",
-      "label": "Seiji Aoki",
-      "tags": [],
-      "color": "#888888",
-      "path": "others/Seiji Aoki"
     },
     {
       "id": "others/Semih Gultekin",
@@ -1253,6 +1218,13 @@
       "tags": [],
       "color": "#888888",
       "path": "others/Zach Chen"
+    },
+    {
+      "id": "others/Zachary Perry",
+      "label": "Zachary Perry",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Zachary Perry"
     },
     {
       "id": "others/Zafar Mamat",
@@ -2582,6 +2554,62 @@
     {
       "source": "others/Diogo Alvarado",
       "target": "others/Alisona Le"
+    },
+    {
+      "source": "others/Mihir Arya",
+      "target": "others/Vikram Anantha"
+    },
+    {
+      "source": "others/Mihir Arya",
+      "target": "others/Anirudh Jain"
+    },
+    {
+      "source": "others/Sathvik Appana",
+      "target": "others/Vikram Anantha"
+    },
+    {
+      "source": "others/Sathvik Appana",
+      "target": "others/Zachary Perry"
+    },
+    {
+      "source": "others/Sathvik Appana",
+      "target": "others/Daniel Jung"
+    },
+    {
+      "source": "others/Sathvik Appana",
+      "target": "others/Ronnie Prasad"
+    },
+    {
+      "source": "others/Sathvik Appana",
+      "target": "others/Eli Olcott"
+    },
+    {
+      "source": "others/Sathvik Appana",
+      "target": "others/Hrishi Patil"
+    },
+    {
+      "source": "others/Vikram Anantha",
+      "target": "others/Sathvik Appana"
+    },
+    {
+      "source": "others/Vikram Anantha",
+      "target": "others/Zachary Perry"
+    },
+    {
+      "source": "others/Vikram Anantha",
+      "target": "others/Daniel Jung"
+    },
+    {
+      "source": "others/Vikram Anantha",
+      "target": "others/Ronnie Prasad"
+    },
+    {
+      "source": "others/Vikram Anantha",
+      "target": "others/Eli Olcott"
+    },
+    {
+      "source": "others/Vikram Anantha",
+      "target": "others/Hrishi Patil"
     },
     {
       "source": "others/Will Lamond",
