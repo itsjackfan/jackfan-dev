@@ -33,6 +33,12 @@ function parseDateKey(date: string): number {
 export const WORK_ITEMS: WorkItem[] = [
   // --- Roles ---
   {
+    id: 'liquid-ai',
+    title: 'ML Research at Liquid AI for summer 2026. Alternative architectures (and more info soon!)',
+    category: 'role',
+    date: 'May 2026',
+  },
+  {
     id: 'thirdlayer-blog',
     title: 'Transitioned off engineering work into blogging for ThirdLayer instead.',
     category: 'role',
