@@ -34,7 +34,7 @@ export const WORK_ITEMS: WorkItem[] = [
   // --- Roles ---
   {
     id: 'liquid-ai',
-    title: 'ML Research at Liquid AI for summer 2026. Alternative architectures (and more info soon!)',
+    title: 'Started as MTS (ML Research Intern) @ Liquid AI, working on diffusion language models.',
     category: 'role',
     date: 'May 2026',
   },
@@ -97,11 +97,18 @@ export const WORK_ITEMS: WorkItem[] = [
 
   // --- Papers & publications ---
   {
-    id: 'icml-2026',
-    title: 'First ML paper submitted (ICML; Scaling Agentic Intelligence with Principled Multi-agent Decentralisation).',
+    id: 'block-diffusion',
+    title: 'NeurIPS 2026 BeNTo / DiffuLM Workshop acceptance as first author and research co-lead: From Autoregression to Block Diffusion, a general-purpose uniform diffusion LM adapted from the Liquid hybrid LFM architecture.',
     category: 'paper',
-    date: 'Jan 2026',
-    link: '/ICML_FINAL.pdf',
+    date: 'Sep 2026',
+    link: 'https://openreview.net/pdf?id=7h7pb4WSkn',
+  },
+  {
+    id: 'coact-fagen',
+    title: 'CoAct accepted as a poster at the ICML 2026 FAGEN Workshop (first author). Also reviewed for FAGEN.',
+    category: 'paper',
+    date: 'Jun 2026',
+    link: 'https://openreview.net/pdf?id=AvxJqQW1X5',
   },
   {
     id: 'setd1a',
@@ -118,6 +125,12 @@ export const WORK_ITEMS: WorkItem[] = [
   },
 
   // --- Events ---
+  {
+    id: 'sigma-xi',
+    title: 'Became an Associate Member of Sigma Xi, the scientific research honour society.',
+    category: 'news',
+    date: 'Nov 2026',
+  },
   {
     id: 'gates-workshop',
     title: 'Attended Gates Foundation workshop on LLM-based agent memory in Seattle.',

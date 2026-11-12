@@ -2,6 +2,112 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  /* Theme: night. Colors are space-separated RGB so Tailwind can apply alpha. */
+  :root {
+    --surface: 21 23 27;
+    --surface-raised: 30 33 39;
+    --surface-high: 40 44 52;
+    --ink: 232 234 238;
+    --ink-body: 195 199 207;
+    --ink-muted: 134 140 151;
+    --ink-faint: 59 64 73;
+    --line: 39 43 51;
+    --accent: 96 165 250;
+    --accent-strong: 147 197 253;
+    --ember: 248 113 113;
+  }
+
+  html {
+    /* Avoid centered layouts (e.g. blog) shifting when scrollbar appears */
+    scrollbar-gutter: stable;
+  }
+
+  body {
+    @apply min-h-screen bg-surface text-ink antialiased;
+  }
+}
+
+@layer components {
+  .text-display {
+    @apply text-5xl font-normal text-ink sm:text-6xl lg:text-7xl;
+  }
+  .text-title {
+    @apply text-3xl font-normal leading-tight tracking-tight text-ink md:text-4xl;
+  }
+  .text-heading {
+    @apply text-xl font-medium text-ink;
+  }
+  .text-label {
+    @apply text-xs font-semibold uppercase tracking-[0.16em] text-ink-muted;
+  }
+  .text-body {
+    @apply text-sm leading-relaxed text-ink-body;
+  }
+  .text-meta {
+    @apply text-sm tabular-nums text-ink-muted;
+  }
+  .link {
+    @apply underline decoration-ink-faint underline-offset-2 transition-colors hover:decoration-ink-muted;
+  }
+  .rise {
+    @apply animate-rise opacity-0 motion-reduce:animate-none motion-reduce:opacity-100;
+  }
+  .ascii-sky {
+    @apply pointer-events-none fixed inset-0 -z-10 opacity-40;
+  }
+  .ascii-sky-calm {
+    @apply opacity-25;
+  }
+  .page-column {
+    @apply mx-auto w-full max-w-wide;
+  }
+  .back-link {
+    @apply fixed left-6 top-8 z-30 inline-flex items-center gap-2 text-sm text-ink-muted transition-colors hover:text-ink sm:left-8 lg:left-12;
+  }
+  .tag {
+    @apply rounded-full bg-surface-raised px-2.5 py-0.5 text-xs text-ink-muted transition-colors hover:bg-surface-high hover:text-ink;
+  }
+  .tag-active {
+    @apply bg-surface-high text-ink;
+  }
+  .note {
+    @apply my-8 rounded-r-lg border border-line border-l-4 border-l-accent bg-surface-raised px-4 py-3.5 text-sm text-ink-body shadow-sm;
+  }
+  .note-title {
+    @apply mb-2 text-xs font-semibold uppercase tracking-wide text-accent-strong;
+  }
+  .note-body {
+    @apply space-y-2 leading-relaxed [&_strong]:font-semibold [&_strong]:text-ink [&_a]:text-accent [&_a]:underline hover:[&_a]:text-accent-strong;
+  }
+  .figure-frame {
+    @apply h-auto w-full max-w-2xl rounded-lg border border-line bg-white;
+  }
+  .figure-caption {
+    @apply mt-3 max-w-2xl text-center text-sm text-ink-muted;
+  }
+  .glass-button {
+    @apply relative overflow-hidden rounded-2xl border border-white/20 px-6 py-3 backdrop-blur-md transition-all duration-300;
+    background-image: linear-gradient(to bottom right, rgb(255 255 255 / 0.1), rgb(255 255 255 / 0.05), rgb(255 255 255 / 0));
+  }
+  .glass-button:hover {
+    @apply border-white/30 shadow-lg shadow-black/40;
+    background-image: linear-gradient(to bottom right, rgb(255 255 255 / 0.15), rgb(255 255 255 / 0.1), rgb(255 255 255 / 0.05));
+  }
+  .glass-shimmer {
+    @apply absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-1000;
+  }
+  .glass-button:hover .glass-shimmer {
+    @apply translate-x-full;
+  }
+  .icon-link {
+    @apply text-ink-muted transition-colors hover:text-ink;
+  }
+  .divider-v {
+    @apply h-[70vh] w-px bg-ink-faint;
+  }
+}
+
 @layer utilities {
   .scrollbar-hide {
     -ms-overflow-style: none;
@@ -9,136 +115,5 @@
   }
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
-  }
-}
-
-:root {
-  --container: 1440px;
-  --sectionPy: 96px;
-  --z-nav: 50;
-}
-
-@layer base {
-  html {
-    /* Avoid centered layouts (e.g. blog) shifting when scrollbar appears */
-    scrollbar-gutter: stable;
-  }
-
-  * {
-    @apply antialiased;
-  }
-
-  body {
-    @apply bg-white text-gray-900 min-h-screen;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-heading;
-  }
-}
-
-@keyframes neuron-pulse {
-  0% {
-    opacity: 0.08;
-    transform: scale(0.6);
-  }
-  10% {
-    opacity: 0.4;
-    transform: scale(0.8);
-  }
-  18% {
-    opacity: 0.9;
-    transform: scale(1);
-  }
-  30% {
-    opacity: 0.4;
-    transform: scale(0.85);
-  }
-  55% {
-    opacity: 0.15;
-    transform: scale(0.7);
-  }
-  100% {
-    opacity: 0.08;
-    transform: scale(0.6);
-  }
-}
-
-.animate-neuron {
-  animation-name: neuron-pulse;
-  animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
-  opacity: 0.08;
-}
-
-@keyframes synapse-pulse {
-  0%,
-  60%,
-  100% {
-    opacity: 0;
-    filter: blur(0.6px);
-    background-position: 0% 50%;
-  }
-  8% {
-    opacity: 0.15;
-    filter: blur(0.7px);
-  }
-  20% {
-    opacity: 0.48;
-    filter: blur(0.4px);
-    background-position: 100% 50%;
-  }
-  35% {
-    opacity: 0.18;
-    filter: blur(0.6px);
-  }
-}
-
-.animate-synapse {
-  animation-name: synapse-pulse;
-  animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
-  background-size: 220% 100%;
-  opacity: 0;
-}
-
-/* Simple horizontal ticker used on the About page */
-.ticker {
-  position: relative;
-  overflow: hidden;
-  background: transparent;
-}
-
-.ticker-track {
-  display: inline-flex;
-  align-items: center;
-  gap: 1.5rem;
-  white-space: nowrap;
-  will-change: transform;
-  background: transparent;
-  animation: ticker-scroll 28s linear infinite;
-}
-
-.ticker-track--slow {
-  animation-duration: 36s;
-}
-
-@keyframes ticker-scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-
-@media (prefers-reduced-motion: reduce) {
-  .animate-neuron {
-    animation-duration: 12s !important;
-  }
-
-  .animate-synapse {
-    animation-duration: 16s !important;
   }
 }

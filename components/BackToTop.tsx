@@ -1,13 +1,12 @@
 "use client";
 
-export function BackToTop() {
+export function BackToTop({ className }: { className: string }) {
   return (
     <button
-      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-      className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+      onClick={() => (document.querySelector("[data-scroll]") ?? window).scrollTo({ top: 0, behavior: "smooth" })}
+      className={className}
     >
       Back to top
     </button>
   );
 }
-

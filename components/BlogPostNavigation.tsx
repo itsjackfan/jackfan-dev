@@ -1,49 +1,30 @@
-"use client";
-
 import Link from "next/link";
 import { BackToTop } from "./BackToTop";
 
-interface BlogPostNavigationProps {
-  prevPost?: {
-    slug: string;
-    title: string;
-  } | null;
-  nextPost?: {
-    slug: string;
-    title: string;
-  } | null;
-}
+type PostRef = { slug: string; title: string } | null;
 
-export function BlogPostNavigation({
-  prevPost,
-  nextPost,
-}: BlogPostNavigationProps) {
+const LINK = "text-sm text-ink-muted transition-colors hover:text-ink";
+
+export function BlogPostNavigation({ prevPost, nextPost }: { prevPost: PostRef; nextPost: PostRef }) {
   return (
-    <nav className="grid grid-cols-3 items-center gap-2 mt-16 pt-8 border-t border-gray-200">
-      <div className="flex justify-start">
-        {prevPost ? (
-          <Link
-            href={`/blog/${prevPost.slug}`}
-            className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
-          >
+    <nav className="mt-16 grid grid-cols-3 items-center gap-2 border-t border-line pt-8">
+      <div>
+        {prevPost && (
+          <Link href={`/blog/${prevPost.slug}`} className={LINK}>
             ← Previous
           </Link>
-        ) : null}
+        )}
       </div>
       <div className="flex justify-center">
-        <BackToTop />
+        <BackToTop className={LINK} />
       </div>
       <div className="flex justify-end">
-        {nextPost ? (
-          <Link
-            href={`/blog/${nextPost.slug}`}
-            className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
-          >
+        {nextPost && (
+          <Link href={`/blog/${nextPost.slug}`} className={LINK}>
             Next →
           </Link>
-        ) : null}
+        )}
       </div>
     </nav>
   );
 }
-

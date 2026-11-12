@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
-import { ArrowLeft, Map } from 'lucide-react';
+import { Map } from 'lucide-react';
+import { BackLink } from '@/components/ui/BackLink';
 import { ManifoldGraph } from '@/components/graph/ManifoldGraph';
 
 export default function GraphPage() {
@@ -29,30 +29,18 @@ export default function GraphPage() {
 
   return (
     <div className="relative h-screen w-full bg-black">
-      {/* Transition overlay — fades from white (matching main page) to transparent */}
+      {/* Transition overlay — fades from the site surface (matching main page) to transparent */}
       <div
-        className="pointer-events-none fixed inset-0 z-[100] bg-white transition-opacity duration-[1200ms] ease-in-out"
+        className="pointer-events-none fixed inset-0 z-[100] bg-surface transition-opacity duration-[1200ms] ease-in-out"
         style={{ opacity: transitioned ? 0 : 1 }}
       />
 
       <ManifoldGraph onLegendData={setLegendData} />
 
       {/* Back to home */}
-      <Link
-        href="/"
-        className={`group absolute left-4 top-4 z-50 flex items-center gap-2 rounded-full px-4 py-2.5 text-sm font-light tracking-wide text-white/60 backdrop-blur-md transition-all duration-500 hover:text-white/90 ${
-          isVisible
-            ? 'translate-y-0 opacity-100'
-            : '-translate-y-2 opacity-0 pointer-events-none'
-        }`}
-        style={{
-          background: 'rgba(255, 255, 255, 0.04)',
-          border: '1px solid rgba(255, 255, 255, 0.06)',
-        }}
-      >
-        <ArrowLeft className="h-3.5 w-3.5 transition-transform duration-200 group-hover:-translate-x-0.5" />
-        <span>back</span>
-      </Link>
+      <div className={`transition-opacity duration-500 ${isVisible ? 'opacity-100' : 'pointer-events-none opacity-0'}`}>
+        <BackLink />
+      </div>
 
       {/* Legend */}
       {legendData.length > 0 && (

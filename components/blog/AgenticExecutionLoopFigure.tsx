@@ -6,7 +6,7 @@ export function AgenticExecutionLoopFigure() {
     >
       <svg
         viewBox="0 0 640 340"
-        className="h-auto w-full max-w-2xl rounded-lg border border-gray-200 bg-white"
+        className="figure-frame"
         role="img"
       >
         <defs>
@@ -210,7 +210,7 @@ export function AgenticExecutionLoopFigure() {
           executor ↔ tools ↔ environment, repeated until the goal is satisfied
         </text>
       </svg>
-      <figcaption className="mt-3 max-w-2xl text-center text-sm text-gray-600">
+      <figcaption className="figure-caption">
         Figure 1: A simple agentic execution loop for a single query—find a lead’s
         email and follow up—showing the executor, tool interfaces, and the
         observe–replan cycle.

@@ -898,6 +898,13 @@
       "path": "others/Mohamed Zidan Cassim"
     },
     {
+      "id": "others/Multi-agent training proposal",
+      "label": "Multi-agent training proposal",
+      "tags": [],
+      "color": "#888888",
+      "path": "others/Multi-agent training proposal"
+    },
+    {
       "id": "others/Nathan Chen",
       "label": "Nathan Chen",
       "tags": [],
@@ -1394,8 +1401,7 @@
       "label": "Decentralised MAS paper",
       "tags": [
         "action",
-        "ends",
-        "ONGOING"
+        "ends"
       ],
       "color": "#888888",
       "path": "the main planter/Decentralised MAS paper"
@@ -1571,6 +1577,13 @@
       ],
       "color": "#888888",
       "path": "the main planter/Insecurities"
+    },
+    {
+      "id": "the main planter/Inspiration",
+      "label": "Inspiration",
+      "tags": [],
+      "color": "#888888",
+      "path": "the main planter/Inspiration"
     },
     {
       "id": "the main planter/Intrinsic motivation and caring",
@@ -1942,6 +1955,13 @@
       ],
       "color": "#888888",
       "path": "the main planter/Starting instead of continuing"
+    },
+    {
+      "id": "the main planter/Summer 2026",
+      "label": "Summer 2026",
+      "tags": [],
+      "color": "#888888",
+      "path": "the main planter/Summer 2026"
     },
     {
       "id": "the main planter/Talented kids usually don't work hard",
@@ -3362,11 +3382,15 @@
     },
     {
       "source": "the main planter/Me.",
-      "target": "the main planter/Personal optimisation policy"
+      "target": "the main planter/Anchors."
     },
     {
       "source": "the main planter/Me.",
-      "target": "the main planter/Anchors."
+      "target": "the main planter/Q2 2026"
+    },
+    {
+      "source": "the main planter/Me.",
+      "target": "the main planter/Personal optimisation policy"
     },
     {
       "source": "the main planter/Me.",
@@ -3711,6 +3735,22 @@
     {
       "source": "the main planter/Starting instead of continuing",
       "target": "the main planter/Being a fit"
+    },
+    {
+      "source": "the main planter/Summer 2026",
+      "target": "the main planter/Q2 2026"
+    },
+    {
+      "source": "the main planter/Summer 2026",
+      "target": "others/Multi-agent training proposal"
+    },
+    {
+      "source": "the main planter/Summer 2026",
+      "target": "the main planter/Neural ODEs"
+    },
+    {
+      "source": "the main planter/Summer 2026",
+      "target": "the main planter/Life."
     },
     {
       "source": "the main planter/Task chunking",

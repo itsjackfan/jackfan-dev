@@ -42,12 +42,4 @@ export const externalPosts: ExternalPost[] = [
   //   tags: ["external"],
   //   externalUrl: "https://www.joindex.com/blog/write-things-down"
   // },
-  {
-    slug: "thirdlayer-weight-token-memory",
-    title: "Memory in the weight space and the token space",
-    date: "10 Mar 2026",
-    author: "Jack Fan",
-    tags: ["external"],
-    externalUrl: "https://www.thirdlayer.inc/blog/weight-space-vs-token-space"
-  }
 ];

@@ -39,23 +39,13 @@ export function TableOfContents({ items }: TableOfContentsProps) {
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
     e.preventDefault();
-    const element = document.getElementById(id);
-    if (element) {
-      const offset = 100;
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - offset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth",
-      });
-    }
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   return (
     <nav className="w-48">
-      <div className="pl-6 border-l border-gray-200">
-        <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">
+      <div className="pl-6 border-l border-line">
+        <h3 className="text-label mb-4">
           Contents
         </h3>
         <ul className="space-y-2">
@@ -66,8 +56,8 @@ export function TableOfContents({ items }: TableOfContentsProps) {
                 onClick={(e) => handleClick(e, item.id)}
                 className={`block text-xs transition-colors ${
                   activeId === item.id
-                    ? "text-black font-medium"
-                    : "text-gray-500 hover:text-gray-900"
+                    ? "font-medium text-ink"
+                    : "text-ink-muted hover:text-ink"
                 }`}
               >
                 {item.text}
