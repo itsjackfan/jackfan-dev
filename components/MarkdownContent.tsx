@@ -8,6 +8,7 @@ import "katex/dist/katex.min.css";
 import { AgenticExecutionLoopFigure } from "@/components/blog/AgenticExecutionLoopFigure";
 import { ArticleSidebar } from "@/components/blog/ArticleSidebar";
 import { DecisionBoundaryViz } from "@/components/blog/DecisionBoundaryViz";
+import { TKnowledgeFigure } from "@/components/blog/TKnowledgeFigure";
 import { SmartLink } from "@/components/ui/SmartLink";
 
 type Props = { children?: ReactNode; id?: string };
@@ -36,6 +37,7 @@ const components = {
   AgenticExecutionLoopFigure,
   ArticleSidebar,
   DecisionBoundaryViz,
+  TKnowledgeFigure,
 };
 
 export function MarkdownContent({ content }: { content: string }) {
