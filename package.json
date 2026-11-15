@@ -23,7 +23,7 @@
     "gray-matter": "^4.0.3",
     "katex": "^0.16.28",
     "lucide-react": "^0.446.0",
-    "next": "^16.0.0",
+    "next": "^16.4.6",
     "next-mdx-remote": "^6.0.0",
     "postcss": "8.4.30",
     "react": "^19.0.0",
